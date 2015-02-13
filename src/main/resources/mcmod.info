@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ftfragileglass",
+  "name": "Fragile Glass",
+  "description": "Fragile glass blocks which shatter gratuitously on impact! Great for adventure maps.",
+  "version": "1.7.2-0.1",
+  "mcversion": "${mcversion}",
+  "url": "http://www.minecraftforum.net/topic/2029142-forge164wipfragile-glass/",
+  "updateUrl": "",
+  "authorList": ["FredTargaryen"],
+  "credits": "Thanks to Ivorius; coolAlias; wuppy",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
