@@ -1,19 +1,31 @@
-[16:42:04] [main/INFO]: Setting user: Player688
-[16:42:11] [Client thread/INFO]: LWJGL Version: 2.9.0
-[16:42:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass
-[16:42:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:42:48] [Sound Library Loader/INFO]: Sound engine started
-[16:42:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:42:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass
-[16:42:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:42:51] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:42:52] [Sound Library Loader/INFO]: Sound engine started
-[16:42:59] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[16:43:34] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[16:43:34] [Server thread/INFO]: Generating keypair
-[16:43:35] [Server thread/INFO]: Preparing start region for level 0
-[16:43:36] [Server thread/INFO]: Preparing spawn area: 19%
-[16:43:37] [Server thread/INFO]: Preparing spawn area: 91%
-[16:43:39] [Server thread/INFO]: Player688[local:E:eddda001] logged in with entity id 166 at (-1399.6486531312962, 4.0, 915.1572932470486)
-[16:43:40] [Server thread/INFO]: Player688 joined the game
-[16:43:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4992ms behind, skipping 99 tick(s)
+[10:01:03] [main/INFO]: Setting user: Player760
+[10:01:09] [Client thread/INFO]: LWJGL Version: 2.9.0
+[10:01:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass
+[10:01:39] [Sound Library Loader/INFO]: Sound engine started
+[10:01:40] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:01:41] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:01:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass
+[10:01:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:01:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:01:44] [Sound Library Loader/INFO]: Sound engine started
+[10:01:51] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[10:01:51] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[10:01:51] [Server thread/INFO]: Generating keypair
+[10:01:54] [Server thread/INFO]: Preparing start region for level 0
+[10:01:55] [Server thread/INFO]: Preparing spawn area: 16%
+[10:01:56] [Server thread/INFO]: Preparing spawn area: 50%
+[10:01:59] [Server thread/INFO]: Player760[local:E:cabcee66] logged in with entity id 199 at (-1402.3867446679292, 4.0, 914.6143697602242)
+[10:01:59] [Server thread/INFO]: Player760 joined the game
+[10:02:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3117ms behind, skipping 62 tick(s)
+[10:02:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4729ms behind, skipping 94 tick(s)
+[10:03:08] [Server thread/INFO]: Saving and pausing game...
+[10:03:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:03:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:03:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:03:09] [Server thread/INFO]: Stopping server
+[10:03:09] [Server thread/INFO]: Saving players
+[10:03:09] [Server thread/INFO]: Saving worlds
+[10:03:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:03:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:03:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:03:11] [Client thread/INFO]: Stopping!

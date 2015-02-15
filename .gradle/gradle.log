@@ -7,27 +7,21 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
-Error listing versions of org.eclipse.equinox:common using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.equinox:preferences using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.equinox:registry using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.core.runtime:compatibility using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.core:expressions using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.core:filesystem using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse:osgi using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.core:jobs using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.core:contenttype using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.equinox:app using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.core:runtime using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Error listing versions of org.eclipse.update:configurator using class org.gradle.api.internal.artifacts.repositories.resolver.MavenVersionLister$1. Will attempt an alternate way to list versions. This behaviour has been deprecated and is scheduled to be removed in Gradle 2.0
-Download http://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.7/jopt-simple-4.7-sources.jar
-Download http://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.7/jopt-simple-4.7-javadoc.jar
-Download http://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0-sources.jar
-Download http://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0-javadoc.jar
-Download http://repo1.maven.org/maven2/net/md-5/SpecialSource/1.7.3/SpecialSource-1.7.3-sources.jar
-Download http://repo1.maven.org/maven2/net/md-5/SpecialSource/1.7.3/SpecialSource-1.7.3-javadoc.jar
-Download http://files.minecraftforge.net/maven/net/minecraftforge/srg2source/Srg2Source/3.2-SNAPSHOT/Srg2Source-3.2-20150109.190932-47-sources.jar
-Download http://files.minecraftforge.net/maven/net/minecraftforge/srg2source/Srg2Source/3.2-SNAPSHOT/Srg2Source-3.2-20150109.190932-47-javadoc.jar
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava FAILED
 
-BUILD SUCCESSFUL
+FAILURE: Build failed with an exception.
 
-Total time: 8 mins 1.561 secs
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Cannot find System Java Compiler. Ensure that you have installed a JDK (not just a JRE) and configured your JAVA_HOME system variable to point to the according directory.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 2 mins 6.937 secs

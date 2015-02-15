@@ -14,8 +14,6 @@ import net.minecraft.util.AxisAlignedBB;
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.lang.Math.sqrt;
-
 public class TileEntityGlass extends TileEntity
 {
     public TileEntityGlass(){super();}
@@ -27,9 +25,9 @@ public class TileEntityGlass extends TileEntity
         {
             //Get all entities near enough to break it if fast enough
             AnyFragileGlassBlock myBlock = (AnyFragileGlassBlock) this.worldObj.getBlock(this.xCoord, this.yCoord, this.zCoord);
-            AxisAlignedBB aabb = myBlock.getCollisionBoundingBoxFromPool(this.worldObj, this.xCoord, this.yCoord, this.zCoord);
-            aabb = aabb.expand(DataReference.GLASS_DETECTION_RANGE, DataReference.GLASS_DETECTION_RANGE, DataReference.GLASS_DETECTION_RANGE);
-            List<Entity> entities = this.worldObj.getEntitiesWithinAABBExcludingEntity(null, aabb);
+            AxisAlignedBB normAABB = myBlock.getCollisionBoundingBoxFromPool(this.worldObj, this.xCoord, this.yCoord, this.zCoord);
+            AxisAlignedBB checkAABB = normAABB.expand(DataReference.GLASS_DETECTION_RANGE, DataReference.GLASS_DETECTION_RANGE, DataReference.GLASS_DETECTION_RANGE);
+            List<Entity> entities = this.worldObj.getEntitiesWithinAABBExcludingEntity(null, checkAABB);
             List<Entity> validEnts = new ArrayList<Entity>();
             for (int x = 0; x < entities.size(); x++)
             {
@@ -54,8 +52,12 @@ public class TileEntityGlass extends TileEntity
                     double mx = nextEnt.motionX;
                     double my = nextEnt.motionY;
                     double mz = nextEnt.motionZ;
-                    double velocity = sqrt((mx*mx) + (my*my) + (mz*mz));
-                    if(velocity > DataReference.MINIMUM_ENTITY_SPEED)
+                    if((nextEnt.posX < normAABB.minX && mx > DataReference.MINIMUM_ENTITY_SPEED)
+                        || (nextEnt.posX > normAABB.maxX && mx < -1 * DataReference.MINIMUM_ENTITY_SPEED)
+                        || (nextEnt.posY < normAABB.maxY && my > DataReference.MINIMUM_ENTITY_SPEED)
+                        || (nextEnt.posY > normAABB.maxY && my < -1 * DataReference.MINIMUM_ENTITY_SPEED)
+                        || (nextEnt.posZ < normAABB.maxZ && mz > DataReference.MINIMUM_ENTITY_SPEED)
+                        || (nextEnt.posZ > normAABB.maxZ && mz < -1 * DataReference.MINIMUM_ENTITY_SPEED))
                     {
                         //breaks it
                         this.worldObj.func_147480_a(this.xCoord, this.yCoord, this.zCoord, false);

@@ -1,0 +1,137 @@
+[22:42:55] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[22:43:48] [Server thread/INFO]: Loading properties
+[22:43:48] [Server thread/WARN]: server.properties does not exist
+[22:43:48] [Server thread/INFO]: Generating new properties file
+[22:43:48] [Server thread/INFO]: Default game type: SURVIVAL
+[22:43:48] [Server thread/INFO]: Generating keypair
+[22:43:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:43:52] [Server thread/WARN]: Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (The system cannot find the file specified)
+[22:43:52] [Server thread/WARN]: Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (The system cannot find the file specified)
+[22:43:53] [Server thread/INFO]: Preparing level "world"
+[22:43:59] [Server thread/INFO]: Preparing start region for level 0
+[22:44:00] [Server thread/INFO]: Preparing spawn area: 0%
+[22:44:01] [Server thread/INFO]: Preparing spawn area: 0%
+[22:44:03] [Server thread/INFO]: Preparing spawn area: 0%
+[22:44:04] [Server thread/INFO]: Preparing spawn area: 1%
+[22:44:06] [Server thread/INFO]: Preparing spawn area: 1%
+[22:44:07] [Server thread/INFO]: Preparing spawn area: 2%
+[22:44:09] [Server thread/INFO]: Preparing spawn area: 4%
+[22:44:11] [Server thread/INFO]: Preparing spawn area: 5%
+[22:44:12] [Server thread/INFO]: Preparing spawn area: 6%
+[22:44:14] [Server thread/INFO]: Preparing spawn area: 7%
+[22:44:15] [Server thread/INFO]: Preparing spawn area: 8%
+[22:44:16] [Server thread/INFO]: Preparing spawn area: 9%
+[22:44:17] [Server thread/INFO]: Preparing spawn area: 9%
+[22:44:19] [Server thread/INFO]: Preparing spawn area: 10%
+[22:44:20] [Server thread/INFO]: Preparing spawn area: 12%
+[22:44:22] [Server thread/INFO]: Preparing spawn area: 14%
+[22:44:23] [Server thread/INFO]: Preparing spawn area: 14%
+[22:44:24] [Server thread/INFO]: Preparing spawn area: 15%
+[22:44:26] [Server thread/INFO]: Preparing spawn area: 16%
+[22:44:27] [Server thread/INFO]: Preparing spawn area: 18%
+[22:44:28] [Server thread/INFO]: Preparing spawn area: 20%
+[22:44:29] [Server thread/INFO]: Preparing spawn area: 20%
+[22:44:30] [Server thread/INFO]: Preparing spawn area: 21%
+[22:44:31] [Server thread/INFO]: Preparing spawn area: 22%
+[22:44:33] [Server thread/INFO]: Preparing spawn area: 22%
+[22:44:34] [Server thread/INFO]: Preparing spawn area: 24%
+[22:44:35] [Server thread/INFO]: Preparing spawn area: 24%
+[22:44:37] [Server thread/INFO]: Preparing spawn area: 25%
+[22:44:39] [Server thread/INFO]: Preparing spawn area: 27%
+[22:44:40] [Server thread/INFO]: Preparing spawn area: 29%
+[22:44:41] [Server thread/INFO]: Preparing spawn area: 29%
+[22:44:42] [Server thread/INFO]: Preparing spawn area: 29%
+[22:44:44] [Server thread/INFO]: Preparing spawn area: 29%
+[22:44:45] [Server thread/INFO]: Preparing spawn area: 30%
+[22:44:46] [Server thread/INFO]: Preparing spawn area: 30%
+[22:44:47] [Server thread/INFO]: Preparing spawn area: 31%
+[22:44:48] [Server thread/INFO]: Preparing spawn area: 32%
+[22:44:49] [Server thread/INFO]: Preparing spawn area: 32%
+[22:44:51] [Server thread/INFO]: Preparing spawn area: 33%
+[22:44:52] [Server thread/INFO]: Preparing spawn area: 34%
+[22:44:53] [Server thread/INFO]: Preparing spawn area: 36%
+[22:44:54] [Server thread/INFO]: Preparing spawn area: 36%
+[22:44:55] [Server thread/INFO]: Preparing spawn area: 36%
+[22:44:56] [Server thread/INFO]: Preparing spawn area: 36%
+[22:44:58] [Server thread/INFO]: Preparing spawn area: 36%
+[22:44:59] [Server thread/INFO]: Preparing spawn area: 37%
+[22:45:00] [Server thread/INFO]: Preparing spawn area: 37%
+[22:45:01] [Server thread/INFO]: Preparing spawn area: 37%
+[22:45:02] [Server thread/INFO]: Preparing spawn area: 38%
+[22:45:04] [Server thread/INFO]: Preparing spawn area: 39%
+[22:45:06] [Server thread/INFO]: Preparing spawn area: 39%
+[22:45:10] [Server thread/INFO]: Preparing spawn area: 40%
+[22:45:11] [Server thread/INFO]: Preparing spawn area: 40%
+[22:45:12] [Server thread/INFO]: Preparing spawn area: 41%
+[22:45:15] [Server thread/INFO]: Preparing spawn area: 43%
+[22:45:17] [Server thread/INFO]: Preparing spawn area: 43%
+[22:45:18] [Server thread/INFO]: Preparing spawn area: 43%
+[22:45:21] [Server thread/INFO]: Preparing spawn area: 45%
+[22:45:23] [Server thread/INFO]: Preparing spawn area: 45%
+[22:45:25] [Server thread/INFO]: Preparing spawn area: 46%
+[22:45:26] [Server thread/INFO]: Preparing spawn area: 48%
+[22:45:30] [Server thread/INFO]: Preparing spawn area: 50%
+[22:45:33] [Server thread/INFO]: Preparing spawn area: 50%
+[22:45:35] [Server thread/INFO]: Preparing spawn area: 51%
+[22:45:39] [Server thread/INFO]: Preparing spawn area: 52%
+[22:45:40] [Server thread/INFO]: Preparing spawn area: 54%
+[22:45:47] [Server thread/INFO]: Preparing spawn area: 54%
+[22:45:49] [Server thread/INFO]: Preparing spawn area: 56%
+[22:45:51] [Server thread/INFO]: Preparing spawn area: 56%
+[22:45:54] [Server thread/INFO]: Preparing spawn area: 56%
+[22:45:58] [Server thread/INFO]: Preparing spawn area: 58%
+[22:45:59] [Server thread/INFO]: Preparing spawn area: 60%
+[22:46:00] [Server thread/INFO]: Preparing spawn area: 61%
+[22:46:02] [Server thread/INFO]: Preparing spawn area: 63%
+[22:46:03] [Server thread/INFO]: Preparing spawn area: 64%
+[22:46:07] [Server thread/INFO]: Preparing spawn area: 65%
+[22:46:08] [Server thread/INFO]: Preparing spawn area: 66%
+[22:46:09] [Server thread/INFO]: Preparing spawn area: 67%
+[22:46:12] [Server thread/INFO]: Preparing spawn area: 67%
+[22:46:15] [Server thread/INFO]: Preparing spawn area: 69%
+[22:46:18] [Server thread/INFO]: Preparing spawn area: 69%
+[22:46:20] [Server thread/INFO]: Preparing spawn area: 70%
+[22:46:23] [Server thread/INFO]: Preparing spawn area: 71%
+[22:46:26] [Server thread/INFO]: Preparing spawn area: 74%
+[22:46:31] [Server thread/INFO]: Preparing spawn area: 74%
+[22:46:35] [Server thread/INFO]: Preparing spawn area: 74%
+[22:46:41] [Server thread/INFO]: Preparing spawn area: 74%
+[22:46:52] [Server thread/INFO]: Preparing spawn area: 74%
+[22:46:54] [Server thread/INFO]: Preparing spawn area: 74%
+[22:46:58] [Server thread/INFO]: Preparing spawn area: 76%
+[22:47:01] [Server thread/INFO]: Preparing spawn area: 79%
+[22:47:04] [Server thread/INFO]: Preparing spawn area: 81%
+[22:47:05] [Server thread/INFO]: Preparing spawn area: 81%
+[22:47:06] [Server thread/INFO]: Preparing spawn area: 83%
+[22:47:10] [Server thread/INFO]: Preparing spawn area: 83%
+[22:47:13] [Server thread/INFO]: Preparing spawn area: 86%
+[22:47:15] [Server thread/INFO]: Preparing spawn area: 88%
+[22:47:19] [Server thread/INFO]: Preparing spawn area: 90%
+[22:47:23] [Server thread/INFO]: Preparing spawn area: 90%
+[22:47:29] [Server thread/INFO]: Preparing spawn area: 92%
+[22:47:33] [Server thread/INFO]: Preparing spawn area: 92%
+[22:47:34] [Server thread/INFO]: Preparing spawn area: 94%
+[22:47:37] [Server thread/INFO]: Preparing spawn area: 94%
+[22:47:38] [Server thread/INFO]: Preparing spawn area: 96%
+[22:47:41] [Server thread/INFO]: Preparing spawn area: 97%
+[22:47:42] [Server thread/INFO]: Preparing spawn area: 97%
+[22:47:44] [Server thread/INFO]: Preparing spawn area: 98%
+[22:47:45] [Server thread/INFO]: Done (232.068s)! For help, type "help" or "?"
+[22:47:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8512ms behind, skipping 170 tick(s)
+[22:48:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 30794ms behind, skipping 615 tick(s)
+[22:48:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4983ms behind, skipping 99 tick(s)
+[22:48:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3398ms behind, skipping 67 tick(s)
+[22:49:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 14402ms behind, skipping 288 tick(s)
+[22:49:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3156ms behind, skipping 63 tick(s)
+[22:53:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2303ms behind, skipping 46 tick(s)
+[22:55:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2917ms behind, skipping 58 tick(s)
+[22:56:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2564ms behind, skipping 51 tick(s)
+[22:56:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded?[22:57:05] [Client thread/INFO]: Reloading Re[22:57:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3106ms behind, skippi[22:57:12] [Sou[22:57:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2036ms behind, skipping 40 tick(s)
+[22:58:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3136ms behind, skipping 62 tick(s)
+[22:59:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6033ms behind, skipping 120 tick(s)
+[22:59:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2169ms behind, skipping 43 tick(s)
+[23:00:49] [Server thread/WARN]: Can't keep up! Did the s[23:01:27] [Client thread/INFO]: Connecting to localhost, 25565
+hind, skipping 48 tick(s)
+[23:01:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2366ms behind, skipping 47 tick(s)
+[23:01:32] [Server thread/INFO]: GameProfile{id='null', name='Player803'} (/127.0.0.1:50051) lost connection: Disconnected
+[23:01:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2288ms behind, skipping 45 tick(s)

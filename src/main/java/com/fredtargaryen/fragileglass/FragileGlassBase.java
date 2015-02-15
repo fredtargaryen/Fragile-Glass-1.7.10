@@ -1,14 +1,14 @@
 /**TO DO
- * Falling entities don't really do anything to the glass
- * Sides of fragile blocks render when covered
- * Jumping near a block probably shouldn't break it
- * stained fragile blocks are opaque in hand
+ * Glass should break before ents hit it, so they don't lose speed - can't do much about this
+ * Stained fragile blocks are opaque in hand
+ *    --Need to make an ISBRH
  */
 
 package com.fredtargaryen.fragileglass;
 
 import com.fredtargaryen.fragileglass.block.*;
 import com.fredtargaryen.fragileglass.client.renderer.PaneRenderer;
+import com.fredtargaryen.fragileglass.client.renderer.StainedPaneRenderer;
 import com.fredtargaryen.fragileglass.item.ItemStainedFragileGlass;
 import com.fredtargaryen.fragileglass.item.ItemStainedFragilePane;
 import com.fredtargaryen.fragileglass.proxy.CommonProxy;
@@ -59,8 +59,7 @@ public class FragileGlassBase
         stainedFragileGlass = new BlockStainedFragileGlass()
                 .setBlockName("ftstainedfragileglass")
                 .setStepSound(Block.soundTypeGlass);
-        //Change to stainedPaneRenderID if it doesn't work
-        stainedFragilePane = new BlockStainedFragilePane(normalPaneRenderID)
+        stainedFragilePane = new BlockStainedFragilePane(stainedPaneRenderID)
                 .setBlockName("ftstainedfragilepane")
                 .setStepSound(Block.soundTypeGlass);
     	sugarBlock = new SugarBlock()
@@ -68,7 +67,7 @@ public class FragileGlassBase
     			.setBlockTextureName(DataReference.MODID+":ftsugarblock");
 
         RenderingRegistry.registerBlockHandler(normalPaneRenderID, new PaneRenderer(normalPaneRenderID));
-        RenderingRegistry.registerBlockHandler(stainedPaneRenderID, new PaneRenderer(stainedPaneRenderID));
+        RenderingRegistry.registerBlockHandler(stainedPaneRenderID, new StainedPaneRenderer(stainedPaneRenderID));
 
     	//Register blocks
     	GameRegistry.registerBlock(fragileGlass, fragileGlass.getUnlocalizedName().substring(5));
@@ -88,6 +87,13 @@ public class FragileGlassBase
     	GameRegistry.addSmelting(sugarBlock, new ItemStack(fragileGlass, 64), 0.1F);
     	GameRegistry.addRecipe(new ItemStack(fragilePane, 16), "xxx", "xxx",
     	        'x', fragileGlass);
+        for(int meta = 0; meta < 16; meta++)
+        {
+            GameRegistry.addRecipe(new ItemStack(stainedFragileGlass, 8, meta), "xxx", "xox", "xxx",
+                    'x', new ItemStack(fragileGlass), 'o', new ItemStack(Items.dye, 1, meta));
+            GameRegistry.addRecipe(new ItemStack(stainedFragilePane, 16, meta), "xxx", "xxx",
+                    'x', new ItemStack(stainedFragileGlass, 1, meta));
+        }
 
         GameRegistry.registerTileEntity(TileEntityGlass.class, "glassTE");
     	

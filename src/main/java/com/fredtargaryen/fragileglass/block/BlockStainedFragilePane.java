@@ -2,12 +2,9 @@ package com.fredtargaryen.fragileglass.block;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockPane;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemDye;
 import net.minecraft.item.ItemStack;
@@ -82,16 +79,6 @@ public class BlockStainedFragilePane extends BlockFragilePane
     public IIcon func_150097_e()
     {
         return this.theIcon;
-    }
-
-    /**
-     * Returns true if the given side of this block type should be rendered, if the adjacent block is at the given
-     * coordinates.  Args: blockAccess, x, y, z, side
-     */
-    @SideOnly(Side.CLIENT)
-    public boolean shouldSideBeRendered(IBlockAccess w, int x, int y, int z, int side)
-    {
-        return w.getBlock(x, y, z) == this ? false : super.shouldSideBeRendered(w, x, y, z, side);
     }
 
     /**
@@ -212,17 +199,17 @@ public class BlockStainedFragilePane extends BlockFragilePane
         return new ItemStack(Item.getItemFromBlock(this), 1, p_149644_1_);
     }
 
-    public boolean canPaneConnectTo(IBlockAccess world, int x, int y, int z, ForgeDirection dir)
-    {
-        return canPaneConnectToBlock(world.getBlock(x, y, z)) ||
-                world.isSideSolid(x, y, z, dir.getOpposite(), false);
-    }
-
     /**
      * The type of render function that is called for this block
      */
     public int getRenderType()
     {
         return this.renderID;
+    }
+
+    @SideOnly(Side.CLIENT)
+    public IIcon func_150104_b(int p_150104_1_)
+    {
+        return this.edgeIcons[p_150104_1_];
     }
 }

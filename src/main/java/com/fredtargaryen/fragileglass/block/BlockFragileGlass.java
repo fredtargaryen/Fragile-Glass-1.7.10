@@ -35,23 +35,14 @@ public class BlockFragileGlass extends AnyFragileGlassBlock
         return 0;
     }
 
-    @Override
-    public boolean isOpaqueCube()
-    {
-        return false;
-    }
-
+    /**
+     * Returns true if the given side of this block type should be rendered, if the adjacent block is at the given
+     * coordinates.  Args: blockAccess, x, y, z, side
+     */
     @SideOnly(Side.CLIENT)
     @Override
-    public boolean renderAsNormalBlock()
+    public boolean shouldSideBeRendered(IBlockAccess w, int x, int y, int z, int side)
     {
-        return false;
-    }
-
-    @SideOnly(Side.CLIENT)
-    @Override
-    public boolean shouldSideBeRendered(IBlockAccess par1IBlockAccess, int par2, int par3, int par4, int par5)
-    {
-        return true;
+        return w.getBlock(x, y, z) instanceof BlockFragileGlass ? false : super.shouldSideBeRendered(w, x, y, z, side);
     }
 }

@@ -56,15 +56,17 @@ public class BlockFragilePane extends AnyFragileGlassBlock
      * coordinates.  Args: blockAccess, x, y, z, side
      */
     @SideOnly(Side.CLIENT)
+    @Override
     public boolean shouldSideBeRendered(IBlockAccess w, int x, int y, int z, int side)
     {
-        return w.getBlock(x, y, z) == this ? false : super.shouldSideBeRendered(w, x, y, z, side);
+        return w.getBlock(x, y, z) instanceof BlockFragilePane ? false : super.shouldSideBeRendered(w, x, y, z, side);
     }
 
     /**
      * Adds all intersecting collision boxes to a list. (Be sure to only add boxes to the list if they intersect the
      * mask.) Parameters: World, X, Y, Z, mask, list, colliding entity
      */
+    @Override
     public void addCollisionBoxesToList(World p_149743_1_, int p_149743_2_, int p_149743_3_, int p_149743_4_, AxisAlignedBB p_149743_5_, List p_149743_6_, Entity p_149743_7_)
     {
         boolean flag  = this.canPaneConnectTo(p_149743_1_, p_149743_2_, p_149743_3_, p_149743_4_ - 1, NORTH);
