@@ -19,13 +19,12 @@ import net.minecraftforge.common.util.ForgeDirection;
 import java.util.List;
 
 import static net.minecraftforge.common.util.ForgeDirection.*;
-import static net.minecraftforge.common.util.ForgeDirection.EAST;
 
 public class BlockFragilePane extends AnyFragileGlassBlock
 {
 	@SideOnly(Side.CLIENT)
 	public IIcon theIcon;
-    public int renderID;
+    private int renderID;
 	
 	public BlockFragilePane(int renderID)
 	{

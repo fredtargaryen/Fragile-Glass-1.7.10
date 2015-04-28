@@ -4,8 +4,6 @@ import com.fredtargaryen.fragileglass.block.BlockFragilePane;
 import com.fredtargaryen.fragileglass.block.BlockStainedFragilePane;
 import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockPane;
-import net.minecraft.block.BlockStainedGlassPane;
 import net.minecraft.client.renderer.EntityRenderer;
 import net.minecraft.client.renderer.RenderBlocks;
 import net.minecraft.client.renderer.Tessellator;

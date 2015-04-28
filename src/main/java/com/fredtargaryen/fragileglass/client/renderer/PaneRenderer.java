@@ -20,7 +20,7 @@ public class PaneRenderer implements ISimpleBlockRenderingHandler
         this.renderID = rID;
     }
     @Override
-    public void renderInventoryBlock(Block block, int metadata, int modelId, RenderBlocks renderer) {}
+    public void renderInventoryBlock(Block block, int metadata, int modelId, RenderBlocks renderer){}
 
     @Override
     public boolean renderWorldBlock(IBlockAccess world, int x, int y, int z, Block block, int modelId, RenderBlocks renderer)
@@ -93,23 +93,23 @@ public class PaneRenderer implements ISimpleBlockRenderingHandler
             if (flag2 && !flag3)
             {
                 tessellator.addVertexWithUV(d9, (double)(y + 1), d13, d21, d2);
-                tessellator.addVertexWithUV(d9, (double)(y + 0), d13, d21, d3);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d13, d0, d3);
+                tessellator.addVertexWithUV(d9, (double)y, d13, d21, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d13, d0, d3);
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d13, d0, d2);
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d13, d21, d2);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d13, d21, d3);
-                tessellator.addVertexWithUV(d9, (double)(y + 0), d13, d0, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d13, d21, d3);
+                tessellator.addVertexWithUV(d9, (double)y, d13, d0, d3);
                 tessellator.addVertexWithUV(d9, (double)(y + 1), d13, d0, d2);
 
                 if (!flag1 && !flag)
                 {
                     tessellator.addVertexWithUV(d10, (double)(y + 1), d18, d4, d6);
-                    tessellator.addVertexWithUV(d10, (double)(y + 0), d18, d4, d8);
-                    tessellator.addVertexWithUV(d10, (double)(y + 0), d17, d5, d8);
+                    tessellator.addVertexWithUV(d10, (double)y, d18, d4, d8);
+                    tessellator.addVertexWithUV(d10, (double)y, d17, d5, d8);
                     tessellator.addVertexWithUV(d10, (double)(y + 1), d17, d5, d6);
                     tessellator.addVertexWithUV(d10, (double)(y + 1), d17, d4, d6);
-                    tessellator.addVertexWithUV(d10, (double)(y + 0), d17, d4, d8);
-                    tessellator.addVertexWithUV(d10, (double)(y + 0), d18, d5, d8);
+                    tessellator.addVertexWithUV(d10, (double)y, d17, d4, d8);
+                    tessellator.addVertexWithUV(d10, (double)y, d18, d5, d8);
                     tessellator.addVertexWithUV(d10, (double)(y + 1), d18, d5, d6);
                 }
 
@@ -140,23 +140,23 @@ public class PaneRenderer implements ISimpleBlockRenderingHandler
             else if (!flag2 && flag3)
             {
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d13, d0, d2);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d13, d0, d3);
-                tessellator.addVertexWithUV(d11, (double)(y + 0), d13, d1, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d13, d0, d3);
+                tessellator.addVertexWithUV(d11, (double)y, d13, d1, d3);
                 tessellator.addVertexWithUV(d11, (double)(y + 1), d13, d1, d2);
                 tessellator.addVertexWithUV(d11, (double)(y + 1), d13, d0, d2);
-                tessellator.addVertexWithUV(d11, (double)(y + 0), d13, d0, d3);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d13, d1, d3);
+                tessellator.addVertexWithUV(d11, (double)y, d13, d0, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d13, d1, d3);
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d13, d1, d2);
 
                 if (!flag1 && !flag)
                 {
                     tessellator.addVertexWithUV(d10, (double)(y + 1), d17, d4, d6);
-                    tessellator.addVertexWithUV(d10, (double)(y + 0), d17, d4, d8);
-                    tessellator.addVertexWithUV(d10, (double)(y + 0), d18, d5, d8);
+                    tessellator.addVertexWithUV(d10, (double)y, d17, d4, d8);
+                    tessellator.addVertexWithUV(d10, (double)y, d18, d5, d8);
                     tessellator.addVertexWithUV(d10, (double)(y + 1), d18, d5, d6);
                     tessellator.addVertexWithUV(d10, (double)(y + 1), d18, d4, d6);
-                    tessellator.addVertexWithUV(d10, (double)(y + 0), d18, d4, d8);
-                    tessellator.addVertexWithUV(d10, (double)(y + 0), d17, d5, d8);
+                    tessellator.addVertexWithUV(d10, (double)y, d18, d4, d8);
+                    tessellator.addVertexWithUV(d10, (double)y, d17, d5, d8);
                     tessellator.addVertexWithUV(d10, (double)(y + 1), d17, d5, d6);
                 }
 
@@ -188,12 +188,12 @@ public class PaneRenderer implements ISimpleBlockRenderingHandler
         else
         {
             tessellator.addVertexWithUV(d9, (double)(y + 1), d13, d21, d2);
-            tessellator.addVertexWithUV(d9, (double)(y + 0), d13, d21, d3);
-            tessellator.addVertexWithUV(d11, (double)(y + 0), d13, d1, d3);
+            tessellator.addVertexWithUV(d9, (double)y, d13, d21, d3);
+            tessellator.addVertexWithUV(d11, (double)y, d13, d1, d3);
             tessellator.addVertexWithUV(d11, (double)(y + 1), d13, d1, d2);
             tessellator.addVertexWithUV(d11, (double)(y + 1), d13, d21, d2);
-            tessellator.addVertexWithUV(d11, (double)(y + 0), d13, d21, d3);
-            tessellator.addVertexWithUV(d9, (double)(y + 0), d13, d1, d3);
+            tessellator.addVertexWithUV(d11, (double)y, d13, d21, d3);
+            tessellator.addVertexWithUV(d9, (double)y, d13, d1, d3);
             tessellator.addVertexWithUV(d9, (double)(y + 1), d13, d1, d2);
 
             if (flag4)
@@ -278,23 +278,23 @@ public class PaneRenderer implements ISimpleBlockRenderingHandler
             if (flag && !flag1)
             {
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d12, d21, d2);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d12, d21, d3);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d13, d0, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d12, d21, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d13, d0, d3);
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d13, d0, d2);
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d13, d21, d2);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d13, d21, d3);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d12, d0, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d13, d21, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d12, d0, d3);
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d12, d0, d2);
 
                 if (!flag3 && !flag2)
                 {
                     tessellator.addVertexWithUV(d15, (double)(y + 1), d13, d4, d6);
-                    tessellator.addVertexWithUV(d15, (double)(y + 0), d13, d4, d8);
-                    tessellator.addVertexWithUV(d16, (double)(y + 0), d13, d5, d8);
+                    tessellator.addVertexWithUV(d15, (double)y, d13, d4, d8);
+                    tessellator.addVertexWithUV(d16, (double)y, d13, d5, d8);
                     tessellator.addVertexWithUV(d16, (double)(y + 1), d13, d5, d6);
                     tessellator.addVertexWithUV(d16, (double)(y + 1), d13, d4, d6);
-                    tessellator.addVertexWithUV(d16, (double)(y + 0), d13, d4, d8);
-                    tessellator.addVertexWithUV(d15, (double)(y + 0), d13, d5, d8);
+                    tessellator.addVertexWithUV(d16, (double)y, d13, d4, d8);
+                    tessellator.addVertexWithUV(d15, (double)y, d13, d5, d8);
                     tessellator.addVertexWithUV(d15, (double)(y + 1), d13, d5, d6);
                 }
 
@@ -325,23 +325,23 @@ public class PaneRenderer implements ISimpleBlockRenderingHandler
             else if (!flag && flag1)
             {
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d13, d0, d2);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d13, d0, d3);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d14, d1, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d13, d0, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d14, d1, d3);
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d14, d1, d2);
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d14, d0, d2);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d14, d0, d3);
-                tessellator.addVertexWithUV(d10, (double)(y + 0), d13, d1, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d14, d0, d3);
+                tessellator.addVertexWithUV(d10, (double)y, d13, d1, d3);
                 tessellator.addVertexWithUV(d10, (double)(y + 1), d13, d1, d2);
 
                 if (!flag3 && !flag2)
                 {
                     tessellator.addVertexWithUV(d16, (double)(y + 1), d13, d4, d6);
-                    tessellator.addVertexWithUV(d16, (double)(y + 0), d13, d4, d8);
-                    tessellator.addVertexWithUV(d15, (double)(y + 0), d13, d5, d8);
+                    tessellator.addVertexWithUV(d16, (double)y, d13, d4, d8);
+                    tessellator.addVertexWithUV(d15, (double)y, d13, d5, d8);
                     tessellator.addVertexWithUV(d15, (double)(y + 1), d13, d5, d6);
                     tessellator.addVertexWithUV(d15, (double)(y + 1), d13, d4, d6);
-                    tessellator.addVertexWithUV(d15, (double)(y + 0), d13, d4, d8);
-                    tessellator.addVertexWithUV(d16, (double)(y + 0), d13, d5, d8);
+                    tessellator.addVertexWithUV(d15, (double)y, d13, d4, d8);
+                    tessellator.addVertexWithUV(d16, (double)y, d13, d5, d8);
                     tessellator.addVertexWithUV(d16, (double)(y + 1), d13, d5, d6);
                 }
 
@@ -373,12 +373,12 @@ public class PaneRenderer implements ISimpleBlockRenderingHandler
         else
         {
             tessellator.addVertexWithUV(d10, (double)(y + 1), d14, d21, d2);
-            tessellator.addVertexWithUV(d10, (double)(y + 0), d14, d21, d3);
-            tessellator.addVertexWithUV(d10, (double)(y + 0), d12, d1, d3);
+            tessellator.addVertexWithUV(d10, (double)y, d14, d21, d3);
+            tessellator.addVertexWithUV(d10, (double)y, d12, d1, d3);
             tessellator.addVertexWithUV(d10, (double)(y + 1), d12, d1, d2);
             tessellator.addVertexWithUV(d10, (double)(y + 1), d12, d21, d2);
-            tessellator.addVertexWithUV(d10, (double)(y + 0), d12, d21, d3);
-            tessellator.addVertexWithUV(d10, (double)(y + 0), d14, d1, d3);
+            tessellator.addVertexWithUV(d10, (double)y, d12, d21, d3);
+            tessellator.addVertexWithUV(d10, (double)y, d14, d1, d3);
             tessellator.addVertexWithUV(d10, (double)(y + 1), d14, d1, d2);
 
             if (flag4)

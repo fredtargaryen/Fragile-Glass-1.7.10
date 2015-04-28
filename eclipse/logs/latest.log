@@ -1,31 +1,47 @@
-[10:01:03] [main/INFO]: Setting user: Player760
-[10:01:09] [Client thread/INFO]: LWJGL Version: 2.9.0
-[10:01:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass
-[10:01:39] [Sound Library Loader/INFO]: Sound engine started
-[10:01:40] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:01:41] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[10:01:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass
-[10:01:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[10:01:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:01:44] [Sound Library Loader/INFO]: Sound engine started
-[10:01:51] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[10:01:51] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[10:01:51] [Server thread/INFO]: Generating keypair
-[10:01:54] [Server thread/INFO]: Preparing start region for level 0
-[10:01:55] [Server thread/INFO]: Preparing spawn area: 16%
-[10:01:56] [Server thread/INFO]: Preparing spawn area: 50%
-[10:01:59] [Server thread/INFO]: Player760[local:E:cabcee66] logged in with entity id 199 at (-1402.3867446679292, 4.0, 914.6143697602242)
-[10:01:59] [Server thread/INFO]: Player760 joined the game
-[10:02:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3117ms behind, skipping 62 tick(s)
-[10:02:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4729ms behind, skipping 94 tick(s)
-[10:03:08] [Server thread/INFO]: Saving and pausing game...
-[10:03:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:03:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:03:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:03:09] [Server thread/INFO]: Stopping server
-[10:03:09] [Server thread/INFO]: Saving players
-[10:03:09] [Server thread/INFO]: Saving worlds
-[10:03:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[10:03:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[10:03:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[10:03:11] [Client thread/INFO]: Stopping!
+[16:43:59] [main/INFO]: Setting user: Player680
+[16:44:07] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:44:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass
+[16:44:43] [Sound Library Loader/INFO]: Sound engine started
+[16:45:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:45:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:45:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass
+[16:45:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:45:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:45:08] [Sound Library Loader/INFO]: Sound engine started
+[16:45:50] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:45:50] [Server thread/INFO]: Generating keypair
+[16:45:53] [Server thread/INFO]: Converting map!
+[16:45:53] [Server thread/INFO]: Scanning folders...
+[16:45:53] [Server thread/INFO]: Total conversion count is 0
+[16:46:03] [Server thread/INFO]: Preparing start region for level 0
+[16:46:04] [Server thread/INFO]: Preparing spawn area: 32%
+[16:46:05] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:46:08] [Server thread/INFO]: Player680[local:E:a7be7a3a] logged in with entity id 8 at (-365.5, 4.0, -109.5)
+[16:46:08] [Server thread/INFO]: Player680 joined the game
+[16:46:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3080ms behind, skipping 61 tick(s)
+[16:46:18] [Server thread/INFO]: Saving and pausing game...
+[16:46:18] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:46:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:46:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:48:09] [Server thread/INFO]: Player680 has just earned the achievement [Taking Inventory]
+[16:48:09] [Client thread/INFO]: [CHAT] Player680 has just earned the achievement [Taking Inventory]
+[16:48:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2781ms behind, skipping 55 tick(s)
+[16:49:03] [Server thread/INFO]: Saving and pausing game...
+[16:49:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:49:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:49:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:49:15] [Server thread/INFO]: Saving and pausing game...
+[16:49:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:49:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:49:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:50:15] [Server thread/INFO]: Saving and pausing game...
+[16:50:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:50:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:50:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:50:15] [Server thread/INFO]: Stopping server
+[16:50:15] [Server thread/INFO]: Saving players
+[16:50:15] [Server thread/INFO]: Saving worlds
+[16:50:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:50:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:50:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:50:20] [Client thread/INFO]: Stopping!

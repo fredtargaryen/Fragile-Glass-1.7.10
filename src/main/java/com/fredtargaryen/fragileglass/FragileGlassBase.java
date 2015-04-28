@@ -1,7 +1,5 @@
 /**TO DO
  * Glass should break before ents hit it, so they don't lose speed - can't do much about this
- * Stained fragile blocks are opaque in hand
- *    --Need to make an ISBRH
  */
 
 package com.fredtargaryen.fragileglass;
@@ -96,7 +94,7 @@ public class FragileGlassBase
         }
 
         GameRegistry.registerTileEntity(TileEntityGlass.class, "glassTE");
-    	
+
     	proxy.registerRenderers();
     }
         

@@ -12,12 +12,10 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
-import net.minecraftforge.common.util.ForgeDirection;
 
 import java.util.List;
 
 import static net.minecraftforge.common.util.ForgeDirection.*;
-import static net.minecraftforge.common.util.ForgeDirection.EAST;
 
 public class BlockStainedFragilePane extends BlockFragilePane
 {
@@ -26,8 +24,8 @@ public class BlockStainedFragilePane extends BlockFragilePane
         super(renderID);
     }
 
-    public IIcon[] icons = new IIcon[16];
-    public IIcon[] edgeIcons = new IIcon[16];
+    private IIcon[] icons = new IIcon[16];
+    private IIcon[] edgeIcons = new IIcon[16];
 
     @Override
     public int damageDropped (int metadata)
@@ -197,14 +195,6 @@ public class BlockStainedFragilePane extends BlockFragilePane
     protected ItemStack createStackedBlock(int p_149644_1_)
     {
         return new ItemStack(Item.getItemFromBlock(this), 1, p_149644_1_);
-    }
-
-    /**
-     * The type of render function that is called for this block
-     */
-    public int getRenderType()
-    {
-        return this.renderID;
     }
 
     @SideOnly(Side.CLIENT)
