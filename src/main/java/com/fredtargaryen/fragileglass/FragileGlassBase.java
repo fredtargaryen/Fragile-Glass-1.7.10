@@ -1,5 +1,9 @@
-/**TO DO
- * Glass should break before ents hit it, so they don't lose speed - can't do much about this
+/**
+ * TO DO
+ * Thin Ice sounds wrong when breaking
+ * Thin Ice texture is wrong
+ * Thin Ice sides aren't hidden at the right time (check)
+ * Thin Ice worldgen
  */
 
 package com.fredtargaryen.fragileglass;
@@ -7,10 +11,11 @@ package com.fredtargaryen.fragileglass;
 import com.fredtargaryen.fragileglass.block.*;
 import com.fredtargaryen.fragileglass.client.renderer.PaneRenderer;
 import com.fredtargaryen.fragileglass.client.renderer.StainedPaneRenderer;
+import com.fredtargaryen.fragileglass.client.renderer.ThinIceRenderer;
 import com.fredtargaryen.fragileglass.item.ItemStainedFragileGlass;
 import com.fredtargaryen.fragileglass.item.ItemStainedFragilePane;
 import com.fredtargaryen.fragileglass.proxy.CommonProxy;
-import com.fredtargaryen.fragileglass.tileentity.TileEntityGlass;
+import com.fredtargaryen.fragileglass.tileentity.TileEntityFragile;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -29,7 +34,7 @@ import net.minecraftforge.oredict.OreDictionary;
 public class FragileGlassBase
 {
 	// The instance of your mod that Forge uses.
-    @Instance(value = "ftfragileglass")
+    @Instance(value = DataReference.MODID)
     public static FragileGlassBase instance;
     
     //Declare all blocks here
@@ -38,6 +43,7 @@ public class FragileGlassBase
     public static Block stainedFragileGlass;
     public static Block stainedFragilePane;
 	public static Block sugarBlock;
+    public static Block thinIce;
     
     // Says where the client and server 'proxy' code is loaded.
     @SidedProxy(clientSide=DataReference.CLIENTPROXYPATH, serverSide=DataReference.SERVERPROXYPATH)
@@ -48,6 +54,7 @@ public class FragileGlassBase
     {
         int normalPaneRenderID = RenderingRegistry.getNextAvailableRenderId();
         int stainedPaneRenderID = RenderingRegistry.getNextAvailableRenderId();
+        int thinIceRenderID = RenderingRegistry.getNextAvailableRenderId();
 
     	fragileGlass = new BlockFragileGlass()
     			.setBlockName("ftfragileglass")
@@ -63,10 +70,14 @@ public class FragileGlassBase
                 .setStepSound(Block.soundTypeGlass);
     	sugarBlock = new SugarBlock()
     			.setBlockName("ftsugarblock")
+                .setStepSound(Block.soundTypeGravel)
     			.setBlockTextureName(DataReference.MODID+":ftsugarblock");
+        thinIce = new BlockThinIce(thinIceRenderID)
+                .setBlockName("ftthinice");
 
         RenderingRegistry.registerBlockHandler(normalPaneRenderID, new PaneRenderer(normalPaneRenderID));
         RenderingRegistry.registerBlockHandler(stainedPaneRenderID, new StainedPaneRenderer(stainedPaneRenderID));
+        RenderingRegistry.registerBlockHandler(thinIceRenderID, new ThinIceRenderer(thinIceRenderID));
 
     	//Register blocks
     	GameRegistry.registerBlock(fragileGlass, fragileGlass.getUnlocalizedName().substring(5));
@@ -74,6 +85,8 @@ public class FragileGlassBase
         GameRegistry.registerBlock(stainedFragileGlass, ItemStainedFragileGlass.class, stainedFragileGlass.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(stainedFragilePane, ItemStainedFragilePane.class, stainedFragilePane.getUnlocalizedName().substring(5));
     	GameRegistry.registerBlock(sugarBlock, sugarBlock.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(thinIce, thinIce.getUnlocalizedName().substring(5));
+        OreDictionary.registerOre("blockSugar", sugarBlock);
     }
         
     @EventHandler
@@ -94,7 +107,7 @@ public class FragileGlassBase
                     'x', new ItemStack(stainedFragileGlass, 1, meta));
         }
 
-        GameRegistry.registerTileEntity(TileEntityGlass.class, "glassTE");
+        GameRegistry.registerTileEntity(TileEntityFragile.class, "glassTE");
 
     	proxy.registerRenderers();
     }

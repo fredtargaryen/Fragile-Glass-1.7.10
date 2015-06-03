@@ -1,6 +1,6 @@
 package com.fredtargaryen.fragileglass.block;
 
-import com.fredtargaryen.fragileglass.tileentity.TileEntityGlass;
+import com.fredtargaryen.fragileglass.tileentity.TileEntityFragile;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -21,7 +21,7 @@ public abstract class AnyFragileGlassBlock extends Block implements ITileEntityP
     {
         try
         {
-            return new TileEntityGlass();
+            return new TileEntityFragile();
         }
         catch (Exception exception)
         {
@@ -51,5 +51,14 @@ public abstract class AnyFragileGlassBlock extends Block implements ITileEntityP
     public boolean renderAsNormalBlock()
     {
         return false;
+    }
+
+    /**
+     * Returns the mobility information of the block, 0 = free, 1 = can't push but can move over, 2 = total immobility
+     * and stop pistons
+     */
+    public int getMobilityFlag()
+    {
+        return 1;
     }
 }

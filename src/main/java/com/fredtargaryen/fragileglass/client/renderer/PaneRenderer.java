@@ -85,8 +85,6 @@ public class PaneRenderer implements ISimpleBlockRenderingHandler
         boolean flag3 = ((BlockFragilePane) block).canPaneConnectTo(renderer.blockAccess, x + 1, y, z, EAST );
         boolean flag4 = block.shouldSideBeRendered(renderer.blockAccess, x, y + 1, z, 1);
         boolean flag5 = block.shouldSideBeRendered(renderer.blockAccess, x, y - 1, z, 0);
-        double d19 = 0.01D;
-        double d20 = 0.005D;
 
         if ((!flag2 || !flag3) && (flag2 || flag3 || flag || flag1))
         {
