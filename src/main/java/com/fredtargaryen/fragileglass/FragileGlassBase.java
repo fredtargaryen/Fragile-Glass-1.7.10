@@ -1,9 +1,9 @@
 /**
  * TO DO
- * Thin Ice sounds wrong when breaking
  * Thin Ice texture is wrong
  * Thin Ice sides aren't hidden at the right time (check)
  * Thin Ice worldgen
+ * Ent falling not perfect
  */
 
 package com.fredtargaryen.fragileglass;
@@ -28,6 +28,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = DataReference.MODID, version = DataReference.VERSION, name=DataReference.MODNAME)
@@ -36,7 +37,11 @@ public class FragileGlassBase
 	// The instance of your mod that Forge uses.
     @Instance(value = DataReference.MODID)
     public static FragileGlassBase instance;
-    
+
+    //Config vars
+    public static boolean genThinIce;
+    public static int avePatchSize;
+
     //Declare all blocks here
     public static Block fragileGlass;
 	public static Block fragilePane;
@@ -52,6 +57,14 @@ public class FragileGlassBase
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+        //CONFIG SETUP
+        Configuration config = new Configuration(event.getSuggestedConfigurationFile());
+        config.load();
+        genThinIce = config.getBoolean("genThinIce", "Worldgen", true, "If true, thin ice patches will generate on frozen bodies of water");
+        avePatchSize = config.getInt("avePatchSize", "Worldgen", 3, 2, 9, "Average patch diameter. 8 is maximum. Set to 9 to REPLACE ALL ICE WITH THIN ICE.");
+        config.save();
+
+        //BLOCK SETUP
         int normalPaneRenderID = RenderingRegistry.getNextAvailableRenderId();
         int stainedPaneRenderID = RenderingRegistry.getNextAvailableRenderId();
         int thinIceRenderID = RenderingRegistry.getNextAvailableRenderId();
@@ -73,7 +86,8 @@ public class FragileGlassBase
                 .setStepSound(Block.soundTypeGravel)
     			.setBlockTextureName(DataReference.MODID+":ftsugarblock");
         thinIce = new BlockThinIce(thinIceRenderID)
-                .setBlockName("ftthinice");
+                .setBlockName("ftthinice")
+                .setStepSound(Block.soundTypeGlass);
 
         RenderingRegistry.registerBlockHandler(normalPaneRenderID, new PaneRenderer(normalPaneRenderID));
         RenderingRegistry.registerBlockHandler(stainedPaneRenderID, new StainedPaneRenderer(stainedPaneRenderID));
@@ -87,6 +101,8 @@ public class FragileGlassBase
     	GameRegistry.registerBlock(sugarBlock, sugarBlock.getUnlocalizedName().substring(5));
         GameRegistry.registerBlock(thinIce, thinIce.getUnlocalizedName().substring(5));
         OreDictionary.registerOre("blockSugar", sugarBlock);
+
+        proxy.registerRenderers();
     }
         
     @EventHandler
@@ -108,8 +124,6 @@ public class FragileGlassBase
         }
 
         GameRegistry.registerTileEntity(TileEntityFragile.class, "glassTE");
-
-    	proxy.registerRenderers();
     }
         
     @EventHandler

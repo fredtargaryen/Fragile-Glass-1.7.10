@@ -6,6 +6,7 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockIce;
 import net.minecraft.block.ITileEntityProvider;
+import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.init.Blocks;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.EnumSkyBlock;
@@ -80,5 +81,11 @@ public class BlockThinIce extends BlockIce implements ITileEntityProvider
         {
             return !(world.getBlock(x, y, z) == Blocks.ice || world.getBlock(x, y, z) == FragileGlassBase.thinIce);
         }
+    }
+
+    @SideOnly(Side.CLIENT)
+    public void registerBlockIcons(IIconRegister p_149651_1_)
+    {
+        this.blockIcon = p_149651_1_.registerIcon("ice");
     }
 }

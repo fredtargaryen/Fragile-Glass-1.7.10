@@ -4,8 +4,7 @@ import com.fredtargaryen.fragileglass.DataReference;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.item.EntityFallingBlock;
-import net.minecraft.entity.item.EntityMinecart;
+import net.minecraft.entity.item.*;
 import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.entity.projectile.EntityFireball;
 import net.minecraft.entity.projectile.EntitySmallFireball;
@@ -37,8 +36,10 @@ public class TileEntityFragile extends TileEntity
                         || nextEnt instanceof EntityArrow
                         || nextEnt instanceof EntityFireball
                         || nextEnt instanceof EntityMinecart
-                        || nextEnt instanceof EntitySmallFireball
-                        || nextEnt instanceof EntityFallingBlock)
+                        || nextEnt instanceof EntityBoat
+                        || nextEnt instanceof EntityFireworkRocket
+                        || nextEnt instanceof EntityFallingBlock
+                        || nextEnt instanceof EntityTNTPrimed)
                 {
                     validEnts.add(0, nextEnt);
                 }
@@ -51,7 +52,7 @@ public class TileEntityFragile extends TileEntity
                 while(!stop && count < validEnts.size())
                 {
                     Entity nextEnt = validEnts.get(count);
-                    if(!(nextEnt instanceof EntityFallingBlock))
+                    if(nextEnt instanceof EntityFallingBlock)
                     {
                         //breaks it
                         this.worldObj.func_147480_a(this.xCoord, this.yCoord, this.zCoord, false);

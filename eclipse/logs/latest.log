@@ -1,32 +1,19 @@
-[13:50:21] [main/INFO]: Setting user: Player375
-[13:50:32] [Client thread/INFO]: LWJGL Version: 2.9.1
-[13:51:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
-[13:51:11] [Sound Library Loader/INFO]: Sound engine started
-[13:51:27] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[13:51:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[13:51:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
-[13:51:30] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[13:51:31] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[13:51:32] [Sound Library Loader/INFO]: Sound engine started
-[13:52:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[13:52:08] [Server thread/INFO]: Generating keypair
-[13:52:11] [Server thread/INFO]: Preparing start region for level 0
-[13:52:12] [Server thread/INFO]: Preparing spawn area: 0%
-[13:52:13] [Server thread/INFO]: Preparing spawn area: 13%
-[13:52:14] [Server thread/INFO]: Preparing spawn area: 84%
-[13:52:16] [Server thread/INFO]: Changing view distance to 12, from 10
-[13:52:20] [Server thread/INFO]: Player375[local:E:8cb716d7] logged in with entity id 122 at (-350.56550766885476, 4.0, -102.79290226631346)
-[13:52:20] [Server thread/INFO]: Player375 joined the game
-[13:52:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5301ms behind, skipping 106 tick(s)
-[13:52:38] [Server thread/INFO]: Saving and pausing game...
-[13:52:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:52:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:52:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:52:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2392ms behind, skipping 47 tick(s)
-[13:52:39] [Server thread/INFO]: Stopping server
-[13:52:39] [Server thread/INFO]: Saving players
-[13:52:39] [Server thread/INFO]: Saving worlds
-[13:52:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[13:52:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[13:52:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[13:52:41] [Client thread/INFO]: Stopping!
+[00:01:40] [Server thread/INFO]: Player503 has just earned the achievement [Taking Inventory]
+[00:01:40] [Client thread/INFO]: [CHAT] Player503 has just earned the achievement [Taking Inventory]
+[00:03:15] [Server thread/INFO]: [Player503: Set the time to 0]
+[00:03:15] [Client thread/INFO]: [CHAT] Set the time to 0
+[00:03:17] [Server thread/INFO]: Saving and pausing game...
+[00:03:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:03:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:03:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:06:06] [Server thread/INFO]: Saving and pausing game...
+[00:06:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:06:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:06:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:06:28] [Server thread/INFO]: Stopping server
+[00:06:28] [Server thread/INFO]: Saving players
+[00:06:28] [Server thread/INFO]: Saving worlds
+[00:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:06:30] [Client thread/INFO]: Stopping!

@@ -24,7 +24,7 @@ public class ThinIceRenderer implements ISimpleBlockRenderingHandler
         Tessellator tessellator = Tessellator.instance;
         GL11.glTranslatef(-0.5F, -0.5F, -0.5F);
         tessellator.startDrawingQuads();
-        renderBlock(tessellator, 0, 0, 0, block, renderer);
+        renderBlock(tessellator, 0, 0, 0, block, renderer, false);
         tessellator.draw();
         GL11.glTranslatef(0.5F, 0.5F, 0.5F);
     }
@@ -33,7 +33,19 @@ public class ThinIceRenderer implements ISimpleBlockRenderingHandler
     public boolean renderWorldBlock(IBlockAccess world, int x, int y, int z, Block block, int modelId, RenderBlocks renderer)
     {
         Tessellator tessellator = Tessellator.instance;
-        tessellator.setBrightness(block.getMixedBrightnessForBlock(renderer.blockAccess, x, y, z));
+        this.renderBlock(tessellator, x, y, z, block, renderer, true);
+        return true;
+    }
+
+    public void renderBlock(Tessellator tessellator, int x, int y, int z, Block block, RenderBlocks renderer, boolean inWorld)
+    {
+        if(inWorld) {
+            tessellator.setBrightness(block.getMixedBrightnessForBlock(renderer.blockAccess, x, y, z));
+        }
+        else
+        {
+            tessellator.setBrightness(15728640);
+        }
         int i1 = block.colorMultiplier(renderer.blockAccess, x, y, z);
         float f = (float)(i1 >> 16 & 255) / 255.0F;
         float f1 = (float)(i1 >> 8 & 255) / 255.0F;
@@ -50,12 +62,6 @@ public class ThinIceRenderer implements ISimpleBlockRenderingHandler
         }
 
         tessellator.setColorOpaque_F(f, f1, f2);
-        this.renderBlock(tessellator, x, y, z, block, renderer);
-        return true;
-    }
-
-    public void renderBlock(Tessellator tessellator, int x, int y, int z, Block block, RenderBlocks renderer)
-    {
         IIcon iicon;
 
         if (renderer.hasOverrideBlockTexture())
