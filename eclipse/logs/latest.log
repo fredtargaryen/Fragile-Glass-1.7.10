@@ -1,19 +1,106 @@
-[00:01:40] [Server thread/INFO]: Player503 has just earned the achievement [Taking Inventory]
-[00:01:40] [Client thread/INFO]: [CHAT] Player503 has just earned the achievement [Taking Inventory]
-[00:03:15] [Server thread/INFO]: [Player503: Set the time to 0]
-[00:03:15] [Client thread/INFO]: [CHAT] Set the time to 0
-[00:03:17] [Server thread/INFO]: Saving and pausing game...
-[00:03:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[00:03:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[00:03:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[00:06:06] [Server thread/INFO]: Saving and pausing game...
-[00:06:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[00:06:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[00:06:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[00:06:28] [Server thread/INFO]: Stopping server
-[00:06:28] [Server thread/INFO]: Saving players
-[00:06:28] [Server thread/INFO]: Saving worlds
-[00:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[00:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[00:06:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[00:06:30] [Client thread/INFO]: Stopping!
+[22:44:50] [main/INFO]: Setting user: Player774
+[22:45:04] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:45:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
+[22:45:48] [Sound Library Loader/INFO]: Sound engine started
+[22:46:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:46:10] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:46:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
+[22:46:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:46:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:46:17] [Sound Library Loader/INFO]: Sound engine started
+[23:08:10] [Client thread/INFO]: Deleting level New World
+[23:08:10] [Client thread/INFO]: Attempt 1...
+[23:08:43] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:08:43] [Server thread/INFO]: Generating keypair
+[23:08:44] [Server thread/INFO]: Converting map!
+[23:08:44] [Server thread/INFO]: Scanning folders...
+[23:08:44] [Server thread/INFO]: Total conversion count is 0
+[23:08:47] [Server thread/WARN]: Unable to find spawn biome
+[23:08:52] [Server thread/INFO]: Preparing start region for level 0
+[23:08:53] [Server thread/INFO]: Preparing spawn area: 1%
+[23:08:54] [Server thread/INFO]: Preparing spawn area: 3%
+[23:08:55] [Server thread/INFO]: Preparing spawn area: 5%
+[23:08:56] [Server thread/INFO]: Preparing spawn area: 6%
+[23:08:57] [Server thread/INFO]: Preparing spawn area: 7%
+[23:08:58] [Server thread/INFO]: Preparing spawn area: 8%
+[23:08:59] [Server thread/INFO]: Preparing spawn area: 10%
+[23:09:01] [Server thread/INFO]: Preparing spawn area: 11%
+[23:09:02] [Server thread/INFO]: Preparing spawn area: 13%
+[23:09:03] [Server thread/INFO]: Preparing spawn area: 16%
+[23:09:05] [Server thread/INFO]: Preparing spawn area: 17%
+[23:09:06] [Server thread/INFO]: Preparing spawn area: 18%
+[23:09:07] [Server thread/INFO]: Preparing spawn area: 21%
+[23:09:08] [Server thread/INFO]: Preparing spawn area: 23%
+[23:09:09] [Server thread/INFO]: Preparing spawn area: 25%
+[23:09:10] [Server thread/INFO]: Preparing spawn area: 28%
+[23:09:11] [Server thread/INFO]: Preparing spawn area: 29%
+[23:09:12] [Server thread/INFO]: Preparing spawn area: 32%
+[23:09:13] [Server thread/INFO]: Preparing spawn area: 33%
+[23:09:14] [Server thread/INFO]: Preparing spawn area: 35%
+[23:09:15] [Server thread/INFO]: Preparing spawn area: 37%
+[23:09:16] [Server thread/INFO]: Preparing spawn area: 39%
+[23:09:18] [Server thread/INFO]: Preparing spawn area: 41%
+[23:09:19] [Server thread/INFO]: Preparing spawn area: 44%
+[23:09:20] [Server thread/INFO]: Preparing spawn area: 47%
+[23:09:21] [Server thread/INFO]: Preparing spawn area: 50%
+[23:09:22] [Server thread/INFO]: Preparing spawn area: 51%
+[23:09:23] [Server thread/INFO]: Preparing spawn area: 53%
+[23:09:24] [Server thread/INFO]: Preparing spawn area: 54%
+[23:09:25] [Server thread/INFO]: Preparing spawn area: 56%
+[23:09:26] [Server thread/INFO]: Preparing spawn area: 58%
+[23:09:28] [Server thread/INFO]: Preparing spawn area: 60%
+[23:09:29] [Server thread/INFO]: Preparing spawn area: 63%
+[23:09:30] [Server thread/INFO]: Preparing spawn area: 65%
+[23:09:31] [Server thread/INFO]: Preparing spawn area: 66%
+[23:09:32] [Server thread/INFO]: Preparing spawn area: 69%
+[23:09:33] [Server thread/INFO]: Preparing spawn area: 72%
+[23:09:34] [Server thread/INFO]: Preparing spawn area: 73%
+[23:09:35] [Server thread/INFO]: Preparing spawn area: 77%
+[23:09:36] [Server thread/INFO]: Preparing spawn area: 79%
+[23:09:37] [Server thread/INFO]: Preparing spawn area: 82%
+[23:09:38] [Server thread/INFO]: Preparing spawn area: 85%
+[23:09:39] [Server thread/INFO]: Preparing spawn area: 88%
+[23:09:40] [Server thread/INFO]: Preparing spawn area: 91%
+[23:09:41] [Server thread/INFO]: Preparing spawn area: 94%
+[23:09:42] [Server thread/INFO]: Preparing spawn area: 97%
+[23:09:44] [Server thread/INFO]: Changing view distance to 8, from 10
+[23:09:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5924ms behind, skipping 118 tick(s)
+[23:09:52] [Server thread/INFO]: Player774[local:E:db31a9cc] logged in with entity id 198 at (11.5, 88.0, -10.5)
+[23:09:52] [Server thread/INFO]: Player774 joined the game
+[23:10:02] [Client thread/INFO]: Warning: Clientside chunk ticking took 692 ms
+[23:10:02] [Client thread/INFO]: Warning: Clientside chunk ticking took 566 ms
+[23:10:09] [Client thread/INFO]: Warning: Clientside chunk ticking took 230 ms
+[23:10:09] [Client thread/INFO]: Warning: Clientside chunk ticking took 259 ms
+[23:10:11] [Client thread/INFO]: Warning: Clientside chunk ticking took 575 ms
+[23:10:12] [Client thread/INFO]: Warning: Clientside chunk ticking took 236 ms
+[23:10:12] [Client thread/INFO]: Warning: Clientside chunk ticking took 248 ms
+[23:10:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 247 ms
+[23:10:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 190 ms
+[23:10:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 159 ms
+[23:10:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
+[23:10:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5226ms behind, skipping 104 tick(s)
+[23:10:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2222ms behind, skipping 44 tick(s)
+[23:11:06] [Server thread/INFO]: Saving and pausing game...
+[23:11:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:11:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:11:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:11:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2289ms behind, skipping 45 tick(s)
+[23:11:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 1161 ms
+[23:12:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3056ms behind, skipping 61 tick(s)
+[23:13:39] [Client thread/INFO]: Warning: Clientside chunk ticking took 267 ms
+[23:13:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 284 ms
+[23:13:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 265 ms
+[23:13:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 293 ms
+[23:15:01] [Server thread/INFO]: Saving and pausing game...
+[23:15:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:15:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:15:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:15:03] [Server thread/INFO]: Stopping server
+[23:15:03] [Server thread/INFO]: Saving players
+[23:15:03] [Server thread/INFO]: Saving worlds
+[23:15:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:15:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:15:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:15:08] [Client thread/INFO]: Deleting level New World
+[23:15:08] [Client thread/INFO]: Attempt 1...
+[23:15:15] [Client thread/INFO]: Stopping!

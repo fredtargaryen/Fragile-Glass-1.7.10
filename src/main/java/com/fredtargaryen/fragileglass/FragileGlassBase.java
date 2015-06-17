@@ -1,8 +1,6 @@
 /**
  * TO DO
- * Thin Ice texture is wrong
- * Thin Ice sides aren't hidden at the right time (check)
- * Thin Ice worldgen
+ * Check patches are genning
  * Ent falling not perfect
  */
 
@@ -16,6 +14,7 @@ import com.fredtargaryen.fragileglass.item.ItemStainedFragileGlass;
 import com.fredtargaryen.fragileglass.item.ItemStainedFragilePane;
 import com.fredtargaryen.fragileglass.proxy.CommonProxy;
 import com.fredtargaryen.fragileglass.tileentity.TileEntityFragile;
+import com.fredtargaryen.fragileglass.worldgen.PatchGen;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -38,9 +37,12 @@ public class FragileGlassBase
     @Instance(value = DataReference.MODID)
     public static FragileGlassBase instance;
 
+    public static PatchGen patchGen = new PatchGen();
+
     //Config vars
     public static boolean genThinIce;
     public static int avePatchSize;
+    public static int genChance;
 
     //Declare all blocks here
     public static Block fragileGlass;
@@ -61,13 +63,13 @@ public class FragileGlassBase
         Configuration config = new Configuration(event.getSuggestedConfigurationFile());
         config.load();
         genThinIce = config.getBoolean("genThinIce", "Worldgen", true, "If true, thin ice patches will generate on frozen bodies of water");
-        avePatchSize = config.getInt("avePatchSize", "Worldgen", 3, 2, 9, "Average patch diameter. 8 is maximum. Set to 9 to REPLACE ALL ICE WITH THIN ICE.");
+        avePatchSize = config.getInt("avePatchSize", "Worldgen", 3, 2, 10, "Average patch diameter");
+        genChance = config.getInt("genChance", "Worldgen", 3, 2, 5, "1 in x chance of patch appearing");
         config.save();
 
         //BLOCK SETUP
         int normalPaneRenderID = RenderingRegistry.getNextAvailableRenderId();
         int stainedPaneRenderID = RenderingRegistry.getNextAvailableRenderId();
-        int thinIceRenderID = RenderingRegistry.getNextAvailableRenderId();
 
     	fragileGlass = new BlockFragileGlass()
     			.setBlockName("ftfragileglass")
@@ -85,13 +87,12 @@ public class FragileGlassBase
     			.setBlockName("ftsugarblock")
                 .setStepSound(Block.soundTypeGravel)
     			.setBlockTextureName(DataReference.MODID+":ftsugarblock");
-        thinIce = new BlockThinIce(thinIceRenderID)
+        thinIce = new BlockThinIce()
                 .setBlockName("ftthinice")
                 .setStepSound(Block.soundTypeGlass);
 
         RenderingRegistry.registerBlockHandler(normalPaneRenderID, new PaneRenderer(normalPaneRenderID));
         RenderingRegistry.registerBlockHandler(stainedPaneRenderID, new StainedPaneRenderer(stainedPaneRenderID));
-        RenderingRegistry.registerBlockHandler(thinIceRenderID, new ThinIceRenderer(thinIceRenderID));
 
     	//Register blocks
     	GameRegistry.registerBlock(fragileGlass, fragileGlass.getUnlocalizedName().substring(5));
@@ -124,6 +125,7 @@ public class FragileGlassBase
         }
 
         GameRegistry.registerTileEntity(TileEntityFragile.class, "glassTE");
+        if(genThinIce) GameRegistry.registerWorldGenerator(patchGen, 0);
     }
         
     @EventHandler

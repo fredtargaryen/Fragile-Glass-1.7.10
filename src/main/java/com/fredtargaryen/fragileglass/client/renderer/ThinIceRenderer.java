@@ -76,7 +76,7 @@ public class ThinIceRenderer implements ISimpleBlockRenderingHandler
         double minu = (double)iicon.getMinU();
         double maxu = (double)iicon.getMaxU();
         double minv = (double)iicon.getMinV();
-        double maxv = (double)iicon.getMaxV() - 0.9375;
+        double maxv = (double)iicon.getMaxV();
         tessellator.addTranslation(x, y, z);
         //bottom
         tessellator.addVertexWithUV(1.0, 0.9375, 1.0, maxu, maxv);
@@ -88,6 +88,8 @@ public class ThinIceRenderer implements ISimpleBlockRenderingHandler
         tessellator.addVertexWithUV(1.0, 1.0, 1.0, maxu, minv);
         tessellator.addVertexWithUV(0.0, 1.0, 1.0, minu, minv);
         tessellator.addVertexWithUV(0.0, 1.0, 0.0, minu, maxv);
+
+        maxv = minv + ((1.0/16.0) * (maxv - minv));
         //front
         tessellator.addVertexWithUV(1.0, 0.9375, 0.0, maxu, maxv);
         tessellator.addVertexWithUV(1.0, 1.0, 0.0, maxu, minv);

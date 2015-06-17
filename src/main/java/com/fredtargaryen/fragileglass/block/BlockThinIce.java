@@ -6,36 +6,26 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockIce;
 import net.minecraft.block.ITileEntityProvider;
-import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.init.Blocks;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.EnumSkyBlock;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.common.util.ForgeDirection;
 
 import java.util.Random;
 
 public class BlockThinIce extends BlockIce implements ITileEntityProvider
 {
-    private int renderID;
-
-    public BlockThinIce(int renderID)
+    public BlockThinIce()
     {
         super();
         this.minY = 0.9375;
-        this.renderID = renderID;
+        this.lightOpacity = 0;
     }
     public TileEntity createNewTileEntity(World w, int i)
     {
         return new TileEntityFragile();
-    }
-
-    /**
-     * The type of render function that is called for this block
-     */
-    public int getRenderType()
-    {
-        return this.renderID;
     }
 
     /**
@@ -63,7 +53,7 @@ public class BlockThinIce extends BlockIce implements ITileEntityProvider
     }
 
     /**
-     * Returns true if the given side of this block type should be rendered, if the adjacent block is at the given
+     * Returns true if the given side of this block should be rendered, if the adjacent block is at the given
      * coordinates.
      */
     @SideOnly(Side.CLIENT)
@@ -75,7 +65,7 @@ public class BlockThinIce extends BlockIce implements ITileEntityProvider
         }
         else if(side == 0)
         {
-            return !(world.getBlock(x, y, z) == Blocks.ice);
+            return world.getBlock(x, y, z) != Blocks.ice;
         }
         else
         {
@@ -83,9 +73,16 @@ public class BlockThinIce extends BlockIce implements ITileEntityProvider
         }
     }
 
-    @SideOnly(Side.CLIENT)
-    public void registerBlockIcons(IIconRegister p_149651_1_)
+    @Override
+    public boolean isSideSolid(IBlockAccess world, int x, int y, int z, ForgeDirection side)
     {
-        this.blockIcon = p_149651_1_.registerIcon("ice");
+        return false;
+    }
+
+    //Sides of adjacent Ice Blocks never render if true; always render when false
+    @Override
+    public boolean isOpaqueCube()
+    {
+        return false;
     }
 }
