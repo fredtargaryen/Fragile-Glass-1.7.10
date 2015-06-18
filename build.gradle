@@ -22,7 +22,7 @@ group= "com.fredtargaryen.fragileglass" // http://maven.apache.org/guides/mini/g
 archivesBaseName = "Fragile Glass and Thin Ice"
 
 minecraft {
-    version = "1.7.10-10.13.2.1291"
+    version = "1.7.10-10.13.4.1448-1.7.10"
     runDir = "eclipse"
 }
 
@@ -39,6 +39,7 @@ dependencies {
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
 }
 
 processResources

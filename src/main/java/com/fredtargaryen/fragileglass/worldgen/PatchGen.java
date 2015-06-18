@@ -12,11 +12,9 @@ import java.util.Random;
 public class PatchGen implements IWorldGenerator
 {
     private float chance;
-    private boolean hasMentioned;
 
     public PatchGen () {
         this.chance = (float)(FragileGlassBase.genChance - 1);
-        this.hasMentioned = false;
     }
 
     @Override
@@ -24,40 +22,38 @@ public class PatchGen implements IWorldGenerator
         BiomeGenBase b = world.getBiomeGenForCoords(chunkX, chunkZ);
         if (b.getEnableSnow())
         {
-            //if ((int) (random.nextFloat() * this.chance) == 1)
-            //{
-                int minX = chunkX * 16;
-                int minZ = chunkZ * 16;
-                int y = 0;
-                while(!world.canBlockSeeTheSky(minX, y, minZ))
-                {
-                    y++;
-                }
-                int patchRad = (int)(((2*random.nextGaussian()) + FragileGlassBase.avePatchSize)/2);
+            if ((int) (random.nextFloat() * this.chance) == 1)
+            {
                 //Coords of middle of patch
-                int midX = minX + (int)(random.nextFloat() * 16);
-                int midZ = minZ + (int)(random.nextFloat() * 16);
-                System.out.println("Genning a patch at "+midX+", "+midZ);
+                int midX = (chunkX * 16) + random.nextInt(16);
+                int midZ = (chunkZ * 16) + random.nextInt(16);
+                //Usually the water level...
+                int y = 62;
+                int patchRad = (int)(((2*random.nextGaussian()) + FragileGlassBase.avePatchSize)/2);
                 int x;
                 int z;
-                for(int rad = patchRad; patchRad > 0; patchRad--)
+                for(int rad = patchRad; rad > 0; rad--)
                 {
-                    for(double t = 0; t > 360; t += 11.25)
+                    for(double t = 0; t < 360; t += 10)
                     {
                         x = (int)(midX + (rad * Math.cos(t)));
                         z = (int)(midZ + (rad * Math.sin(t)));
                         if(world.getBlock(x, y, z) == Blocks.ice)
                         {
-                            if(!this.hasMentioned)
-                            {
-                                System.out.println("There's a block of ice at x: " + x + ", z: " + z + "!");
-                                this.hasMentioned = true;
+                            //Adds a little randomness to the outside of patches, to avoid perfect circles all the time
+                            if(rad > patchRad - 2) {
+                                if (random.nextBoolean()) {
+                                    world.setBlock(x, y, z, FragileGlassBase.thinIce);
+                                }
                             }
-                            world.setBlock(x, y, z, FragileGlassBase.thinIce);
+                            else
+                            {
+                                world.setBlock(x, y, z, FragileGlassBase.thinIce);
+                            }
                         }
                     }
                 }
-            //}
+            }
         }
     }
 }

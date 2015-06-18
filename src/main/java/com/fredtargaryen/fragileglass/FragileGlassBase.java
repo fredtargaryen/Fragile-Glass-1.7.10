@@ -1,6 +1,5 @@
 /**
  * TO DO
- * Check patches are genning
  * Ent falling not perfect
  */
 
@@ -9,7 +8,6 @@ package com.fredtargaryen.fragileglass;
 import com.fredtargaryen.fragileglass.block.*;
 import com.fredtargaryen.fragileglass.client.renderer.PaneRenderer;
 import com.fredtargaryen.fragileglass.client.renderer.StainedPaneRenderer;
-import com.fredtargaryen.fragileglass.client.renderer.ThinIceRenderer;
 import com.fredtargaryen.fragileglass.item.ItemStainedFragileGlass;
 import com.fredtargaryen.fragileglass.item.ItemStainedFragilePane;
 import com.fredtargaryen.fragileglass.proxy.CommonProxy;
@@ -62,9 +60,9 @@ public class FragileGlassBase
         //CONFIG SETUP
         Configuration config = new Configuration(event.getSuggestedConfigurationFile());
         config.load();
-        genThinIce = config.getBoolean("genThinIce", "Worldgen", true, "If true, thin ice patches will generate on frozen bodies of water");
-        avePatchSize = config.getInt("avePatchSize", "Worldgen", 3, 2, 10, "Average patch diameter");
+        avePatchSize = config.getInt("avePatchSize", "Worldgen", 5, 4, 10, "Average patch diameter");
         genChance = config.getInt("genChance", "Worldgen", 3, 2, 5, "1 in x chance of patch appearing");
+        genThinIce = config.getBoolean("genThinIce", "Worldgen", true, "If true, thin ice patches will generate on frozen bodies of water");
         config.save();
 
         //BLOCK SETUP
@@ -85,7 +83,7 @@ public class FragileGlassBase
                 .setStepSound(Block.soundTypeGlass);
     	sugarBlock = new SugarBlock()
     			.setBlockName("ftsugarblock")
-                .setStepSound(Block.soundTypeGravel)
+                .setStepSound(Block.soundTypeSand)
     			.setBlockTextureName(DataReference.MODID+":ftsugarblock");
         thinIce = new BlockThinIce()
                 .setBlockName("ftthinice")
@@ -125,7 +123,7 @@ public class FragileGlassBase
         }
 
         GameRegistry.registerTileEntity(TileEntityFragile.class, "glassTE");
-        if(genThinIce) GameRegistry.registerWorldGenerator(patchGen, 0);
+        if(genThinIce) GameRegistry.registerWorldGenerator(patchGen, 1);
     }
         
     @EventHandler

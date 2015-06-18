@@ -6,71 +6,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e96eeeda-c834-4d53-94c9-e043f0bbb010" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/worldgen/PatchGen.java" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\DIM-1\data\villages.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\DIM-1\forcedchunks.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\DIM1\data\villages.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\DIM1\forcedchunks.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\data\Village.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\data\villages.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\forcedchunks.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\level.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\level.dat_mcr" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\level.dat_old" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\0393a2c7-cdb8-34be-bc16-491de4797b8e.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\19e1dbac-54cc-34fa-99b8-c2a0812b14c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\365faa2a-981e-3ca7-bdac-725f58fc8c84.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\3d66a28d-6934-3ed5-8300-c1ada16fe77b.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\3e22f9fd-d6d5-3659-ae8e-767882feb736.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\494e218c-ed3e-3c18-87a9-972128e58cab.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\5c5c7719-d2ce-30c8-bc42-ad9690493df6.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\5d4844c1-110f-375f-8c73-6803b7a61e5d.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\6b7bc9c9-e7da-3a47-9bb3-2051e22e10b9.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\b40915cd-d3a7-3e3d-9a52-6fc5334ba2e3.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\b8491575-8822-3c65-ac66-49751c8ac7b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\c21e574d-957a-383a-949a-73e33ee66435.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\d75ffc85-72b0-3b94-be32-d104d89a3a6a.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\playerdata\f733c99c-383b-397f-9c2e-c0657633d4c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\region\r.-1.-1.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\region\r.-1.-2.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\region\r.-1.0.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\region\r.-1.1.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\region\r.-2.-1.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\region\r.-2.-2.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\region\r.-2.0.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\region\r.0.-1.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\region\r.0.0.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\region\r.0.1.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\session.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\0393a2c7-cdb8-34be-bc16-491de4797b8e.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\19e1dbac-54cc-34fa-99b8-c2a0812b14c1.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\365faa2a-981e-3ca7-bdac-725f58fc8c84.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\3d66a28d-6934-3ed5-8300-c1ada16fe77b.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\3e22f9fd-d6d5-3659-ae8e-767882feb736.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\494e218c-ed3e-3c18-87a9-972128e58cab.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\5c5c7719-d2ce-30c8-bc42-ad9690493df6.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\5d4844c1-110f-375f-8c73-6803b7a61e5d.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\6b7bc9c9-e7da-3a47-9bb3-2051e22e10b9.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\b40915cd-d3a7-3e3d-9a52-6fc5334ba2e3.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\b8491575-8822-3c65-ac66-49751c8ac7b1.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\c21e574d-957a-383a-949a-73e33ee66435.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\d75ffc85-72b0-3b94-be32-d104d89a3a6a.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\saves\New World\stats\f733c99c-383b-397f-9c2e-c0657633d4c1.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockThinIce.java" afterPath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockThinIce.java" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\crash-reports\crash-2015-06-01_21.34.35-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\crash-reports\crash-2015-06-01_22.02.49-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\crash-reports\crash-2015-06-07_23.15.37-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-05-04-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-05-05-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-05-15-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-01-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-01-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-01-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-01-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-01-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-01-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-01-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-03-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-03-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-03-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-03-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-05-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-07-1.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-07-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-07-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-07-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-07-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-07-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-07-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-07-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-08-1.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-08-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-08-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-08-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-13-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-13-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-13-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-13-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-13-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-16-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-16-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\2015-06-17-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\fml-client-1.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\fml-client-2.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\fml-client-3.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\fml-client-latest.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\fml-junk-earlystartup.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\fml-server-1.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\logs\fml-server-latest.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\options.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\usernamecache.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\world\data\Mineshaft.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\world\data\Village.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\src\main\java\com\fredtargaryen\fragileglass\client\renderer\ThinIceRenderer.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/world/level.dat" afterPath="$PROJECT_DIR$/eclipse/world/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/world/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/world/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/world/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/world/region/r.-1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/world/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/world/region/r.0.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/world/session.lock" afterPath="$PROJECT_DIR$/eclipse/world/session.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.debug.core/.launches/Client.launch" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.debug.core/.launches/Client.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fragile-Glass-1.7.10.iml" afterPath="$PROJECT_DIR$/Fragile-Glass-1.7.10.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fragile-Glass-1.7.10.ipr" afterPath="$PROJECT_DIR$/Fragile-Glass-1.7.10.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fragile-Glass-1.7.10.iws" afterPath="$PROJECT_DIR$/Fragile-Glass-1.7.10.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/FragileGlassBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/FragileGlassBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/client/renderer/ThinIceRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/client/renderer/ThinIceRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/worldgen/PatchGen.java" afterPath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/worldgen/PatchGen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.debug.core/.launches/Server.launch" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.debug.core/.launches/Server.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/SugarBlock.java" afterPath="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/SugarBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/eula.txt" afterPath="$PROJECT_DIR$/eclipse/eula.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/forge.cfg" afterPath="$PROJECT_DIR$/eclipse/config/forge.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/ftfragileglass.cfg" afterPath="$PROJECT_DIR$/eclipse/config/ftfragileglass.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/options.txt" afterPath="$PROJECT_DIR$/eclipse/options.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/usernamecache.json" afterPath="$PROJECT_DIR$/eclipse/usernamecache.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.usagedata.gathering.prefs" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.usagedata.gathering.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterPath="$PROJECT_DIR$/eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/server.properties" afterPath="$PROJECT_DIR$/eclipse/server.properties" />
     </list>
     <ignored path="Fragile-Glass-1.7.10.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,21 +143,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FragileGlassBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/FragileGlassBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2023">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PatchGen.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/worldgen/PatchGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40050378" vertical-offset="674" max-vertical-offset="1173">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.77078086" vertical-offset="0" max-vertical-offset="1071">
+              <caret line="20" column="109" selection-start-line="20" selection-start-column="109" selection-end-line="20" selection-end-column="109" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -472,7 +476,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1433356595767" />
+        <entry key="$PROJECT_DIR$" value="1434661031762" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -487,8 +491,8 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeSrc-1.7.10-10.13.4.1448-1.7.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-debug-all-5.0.3-sources.jar" />
@@ -535,6 +539,10 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.10.Final/9a214bc1e6350ead5234e4dd5eb3a2a802d1c658/netty-all-4.0.10.Final-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.10.Final/9e50bd52ffe257a0e2cd8d971688d6ce7d174325/netty-all-4.0.10.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/7ca0efbeb87ca845b5d7a0ac9c21a4b7b95f7b28/guava-17.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/d2a489573c0ed2c4942b3660decad5d65087b406/commons-lang3-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar" />
@@ -572,11 +580,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/4c517eca808522457dd95ee8fc1fbcdbb602efbe/lwjgl-platform-2.9.1-natives-windows.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/aa9aae879af8eb378e22cfc64db56ec2ca9a44d1/lwjgl-platform-2.9.1-natives-linux.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac/lwjgl-platform-2.9.1-natives-osx.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/7ca0efbeb87ca845b5d7a0ac9c21a4b7b95f7b28/guava-17.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/d2a489573c0ed2c4942b3660decad5d65087b406/commons-lang3-3.3.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/1.2-SNAPSHOT/a7d9c6174ba86e8f4f570899c4eeb448cdc828ed/ForgeGradle-1.2-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/1.2-SNAPSHOT/824a082566ff58c10ad2ec7fd927634da4f42bfc/ForgeGradle-1.2-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/RetroGuard/3.6.6/ffd69fcab06b928cf76144f08b7209ccf0656b6d/RetroGuard-3.6.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/235993117036d44d126f76db9ea2202ee4884682/opencsv-2.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar" />
@@ -655,90 +659,50 @@
               <option name="name" value="Fragile-Glass-1.7.10" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/core-impl" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/cpp" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/jetty" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/language-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/open-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/sonar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/ui" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/ant-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-base-services-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-base-services-groovy-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-cli-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-core-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-docs-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-launcher-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-messaging-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-native-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-open-api-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-resources-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-tooling-api-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-ui-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-wrapper-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/groovy-all-2.3.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/ant-antlr-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-announce-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-antlr-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-build-comparison-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-build-init-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-code-quality-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-core-impl-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-cpp-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-diagnostics-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-ear-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-ide-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-ivy-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-jacoco-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-javascript-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-jetty-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-language-base-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-language-jvm-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-maven-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-osgi-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-plugin-use-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-plugins-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-publish-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-reporting-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-resources-http-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-scala-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-signing-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-sonar-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-base-services-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-base-services-groovy-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-cli-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-core-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-docs-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-launcher-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-messaging-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-native-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-open-api-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-resources-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-tooling-api-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-ui-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/gradle-wrapper-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/groovy-all-2.3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-announce-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-antlr-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-build-comparison-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-build-init-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-code-quality-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-core-impl-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-cpp-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-diagnostics-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-ear-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-ide-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-ivy-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-jacoco-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-javascript-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-jetty-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-language-base-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-language-jvm-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-maven-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-osgi-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-plugin-use-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-plugins-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-publish-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-reporting-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-resources-http-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-scala-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-signing-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/gradle-sonar-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-bin/5h57m9vra0mjv9qs45oqtsb5c0/gradle-2.0/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -767,6 +731,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/tileentity/TileEntityFragile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/client/renderer/ThinIceRenderer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockThinIce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/SugarBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/FragileGlassBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/worldgen/PatchGen.java" />
       </list>
@@ -813,7 +778,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -852,6 +816,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -1102,6 +1067,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fragile-Glass-1.7.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fragile-Glass-1.7.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.fredtargaryen.fragileglass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fragile-Glass-1.7.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fragile-Glass-1.7.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.fredtargaryen.fragileglass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client.renderer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
@@ -1135,6 +1136,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets.ftfragileglass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fragile-Glass-1.7.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fragile-Glass-1.7.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets.ftfragileglass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1304,13 +1323,7 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Fragile-Glass-1.7.10" />
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1356,7 +1369,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1383,31 +1396,30 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969373" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771823" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969373" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1429,7 +1441,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1437,77 +1449,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraft/init/Blocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33126935" vertical-offset="2800" max-vertical-offset="3128">
-          <caret line="198" column="40" selection-start-line="198" selection-start-column="37" selection-end-line="198" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/ftfragileglass/lang/en_GB.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.093406595" vertical-offset="0" max-vertical-offset="884">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/ftfragileglass/lang/en_US.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.093406595" vertical-offset="0" max-vertical-offset="884">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockFragileGlass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49756098" vertical-offset="0" max-vertical-offset="646">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockStainedFragilePane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="3230">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraft/block/BlockCauldron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17128463" vertical-offset="0" max-vertical-offset="4012">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraft/client/renderer/tileentity/RenderEndPortal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2141058" vertical-offset="0" max-vertical-offset="2142">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraft/world/IBlockAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1122">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraft/world/chunk/Chunk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9320" max-vertical-offset="27166">
-          <caret line="605" column="78" selection-start-line="605" selection-start-column="78" selection-end-line="605" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraft/world/chunk/NibbleArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="415" max-vertical-offset="1088">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraft/world/chunk/storage/ExtendedBlockStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1707" max-vertical-offset="4403">
@@ -1543,20 +1484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/DataReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08292683" vertical-offset="0" max-vertical-offset="425">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockStainedFragileGlass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="867">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraft/block/BlockFence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.23050848" vertical-offset="204" max-vertical-offset="3060">
@@ -1564,32 +1491,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockFragilePane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.9677966" vertical-offset="634" max-vertical-offset="3162">
-          <caret line="199" column="7" selection-start-line="199" selection-start-column="7" selection-end-line="199" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/AnyFragileGlassBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3258786" vertical-offset="0" max-vertical-offset="867">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraft/block/material/Material.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5008157" vertical-offset="2583" max-vertical-offset="3196">
           <caret line="203" column="23" selection-start-line="203" selection-start-column="23" selection-end-line="203" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/proxy/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1604,13 +1509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.748111" vertical-offset="3938" max-vertical-offset="4335">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/tileentity/TileEntityFragile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5138539" vertical-offset="187" max-vertical-offset="1275">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1635,18 +1533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/client/renderer/PaneRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31043956" vertical-offset="57" max-vertical-offset="7888">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraftforge/common/config/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18803419" vertical-offset="26658" max-vertical-offset="28237">
           <caret line="1636" column="7" selection-start-line="1636" selection-start-column="7" selection-end-line="1636" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1661,7 +1551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="71782" max-vertical-offset="73202">
           <caret line="4452" column="40" selection-start-line="4452" selection-start-column="40" selection-end-line="4452" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1676,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2695214" vertical-offset="606" max-vertical-offset="1003">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1684,7 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.07052897" vertical-offset="96" max-vertical-offset="901">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1692,7 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17128463" vertical-offset="0" max-vertical-offset="442">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1700,7 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.11951219" vertical-offset="117" max-vertical-offset="731">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1708,7 +1593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1609756" vertical-offset="663" max-vertical-offset="2295">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1737,21 +1621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3324937" vertical-offset="22665" max-vertical-offset="40069">
           <caret line="1550" column="19" selection-start-line="1550" selection-start-column="19" selection-end-line="1550" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/client/renderer/ThinIceRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1989">
-          <caret line="91" column="51" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockThinIce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1759,14 +1628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33278957" vertical-offset="136" max-vertical-offset="6681">
           <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_72/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7510" max-vertical-offset="9350">
-          <caret line="495" column="31" selection-start-line="495" selection-start-column="31" selection-end-line="495" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1781,30 +1642,189 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1291/forgeSrc-1.7.10-10.13.2.1291-sources.jar!/net/minecraft/world/biome/BiomeGenBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="4943" max-vertical-offset="11917">
-          <caret line="347" column="32" selection-start-line="347" selection-start-column="22" selection-end-line="347" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.33126935" vertical-offset="4721" max-vertical-offset="11917">
+          <caret line="333" column="25" selection-start-line="333" selection-start-column="21" selection-end-line="333" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_72/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5390244" vertical-offset="4386" max-vertical-offset="9350">
+          <caret line="302" column="53" selection-start-line="302" selection-start-column="53" selection-end-line="302" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/ftfragileglass/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08292683" vertical-offset="0" max-vertical-offset="884">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/ftfragileglass/lang/en_GB.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08292683" vertical-offset="0" max-vertical-offset="884">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/AnyFragileGlassBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3258786" vertical-offset="0" max-vertical-offset="867">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockFragileGlass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3258786" vertical-offset="0" max-vertical-offset="646">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockStainedFragileGlass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="867">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockStainedFragilePane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2975">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockThinIce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="1156">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/SugarBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2172524" vertical-offset="0" max-vertical-offset="626">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/block/BlockFragilePane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="634" max-vertical-offset="3162">
+          <caret line="199" column="7" selection-start-line="199" selection-start-column="7" selection-end-line="199" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/client/renderer/PaneRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="7837">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/client/renderer/StainedPaneRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/item/ItemStainedFragileGlass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/item/ItemStainedFragilePane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/proxy/IProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0543131" vertical-offset="0" max-vertical-offset="626">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/proxy/ServerProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0543131" vertical-offset="0" max-vertical-offset="626">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/tileentity/TileEntityFragile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33278957" vertical-offset="187" max-vertical-offset="1275">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/FragileGlassBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2023">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.33278957" vertical-offset="323" max-vertical-offset="2363">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/DataReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0543131" vertical-offset="0" max-vertical-offset="626">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fredtargaryen/fragileglass/worldgen/PatchGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40050378" vertical-offset="674" max-vertical-offset="1173">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.77078086" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="20" column="109" selection-start-line="20" selection-start-column="109" selection-end-line="20" selection-end-column="109" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
