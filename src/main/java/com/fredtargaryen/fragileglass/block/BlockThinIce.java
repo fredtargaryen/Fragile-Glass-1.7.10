@@ -20,7 +20,7 @@ public class BlockThinIce extends BlockIce implements ITileEntityProvider
     public BlockThinIce()
     {
         super();
-        this.minY = 0.9375;
+        this.minY = 0.875;
         this.lightOpacity = 0;
     }
     public TileEntity createNewTileEntity(World w, int i)

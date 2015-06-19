@@ -151,3 +151,108 @@ java.io.FileNotFoundException: whitelist.json (The system cannot find the file s
 [22:26:25] [Server thread/INFO]: Done (66.412s)! For help, type "help" or "?"
 [22:26:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3423ms behind, skipping 68 tick(s)
 [22:27:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2186ms behind, skipping 43 tick(s)
+[22:28:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3782ms behind, skipping 75 tick(s)
+[22:29:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3216ms behind, skipping 64 tick(s)
+[22:30:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@3f257dae[id=<null>,name=Player446,properties={},legacy=false] (/127.0.0.1:52308) lost connection: Disconnected
+ primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:28:11] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:28:11] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:28:12] [main/INFO]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
+[22:28:12] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_72, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.7.0_72\jre
+[22:28:12] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[22:28:12] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:28:12] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[22:28:12] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[22:28:12] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:28:12] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:28:12] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:28:12] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:28:12] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:28:12] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:28:13] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[22:28:28] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[22:28:28] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:28:28] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:28:37] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:28:37] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[22:28:37] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[22:28:37] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:28:52] [main/INFO]: Setting user: Player446
+[22:29:01] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:29:05] [Client thread/INFO]: Could not load splash.properties, will create a default one
+[22:29:05] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 18/06/15 22:29
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.7.0_72, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 916123800 bytes (873 MB) / 1056309248 bytes (1007 MB) up to 1056309248 bytes (1007 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.4.13283 Compatibility Profile Context 14.501.1003.0' Renderer: 'AMD Radeon HD 7310 Graphics'
+[22:29:05] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[22:29:06] [Client thread/INFO]: MinecraftForge v10.13.4.1448 Initialized
+[22:29:06] [Client thread/INFO]: Replaced 183 ore recipies
+[22:29:07] [Client thread/INFO]: Completed early MinecraftForge initialization
+[22:29:09] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[22:29:09] [Client thread/INFO]: Searching C:\Users\user\Desktop\DEV\Minecraft Mods\Fragile-Glass-1.7.10\eclipse\mods for mods
+[22:29:30] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[22:29:32] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, ftfragileglass] at CLIENT
+[22:29:32] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, ftfragileglass] at SERVER
+[22:29:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
+[22:29:36] [Client thread/INFO]: Processing ObjectHolder annotations
+[22:29:36] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[22:29:36] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[22:29:36] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[22:29:36] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[22:29:37] [Client thread/INFO]: Applying holder lookups
+[22:29:37] [Client thread/INFO]: Holder lookups applied
+[22:29:37] [Client thread/INFO]: Injecting itemstacks
+[22:29:37] [Client thread/INFO]: Itemstack injection complete
+[22:29:38] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:29:38] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[22:29:39] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[22:29:39] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:29:41] [Thread-7/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[22:29:41] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:29:41] [Sound Library Loader/INFO]: Sound engine started
+[22:29:55] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:29:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:29:57] [Client thread/INFO]: Injecting itemstacks
+[22:29:57] [Client thread/INFO]: Itemstack injection complete
+[22:29:57] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[22:29:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
+[22:29:58] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:30:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:30:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:30:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[22:30:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[22:30:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:30:00] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:30:00] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[22:30:01] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[22:30:01] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:30:03] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[22:30:03] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:30:03] [Sound Library Loader/INFO]: Sound engine started
+[22:30:51] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[22:30:53] [Client thread/INFO]: Connecting to localhost, 25565
+[22:31:32] [Client thread/INFO]: Stopping!
+[22:31:33] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[22:31:33] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[22:31:33] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[22:31:33] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
