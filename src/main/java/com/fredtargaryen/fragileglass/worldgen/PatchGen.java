@@ -11,10 +11,13 @@ import java.util.Random;
 
 public class PatchGen implements IWorldGenerator
 {
-    private float chance;
+    //If it goes a long time without genning a patch, forces a bonus patch to gen
+    private int timeSinceLastPatch;
+    private final int timeToWaitBeforeBonusPatch;
 
     public PatchGen () {
-        this.chance = (float)(FragileGlassBase.genChance - 1);
+        this.timeSinceLastPatch = 0;
+        this.timeToWaitBeforeBonusPatch = FragileGlassBase.genChance + 1;
     }
 
     @Override
@@ -22,35 +25,50 @@ public class PatchGen implements IWorldGenerator
         BiomeGenBase b = world.getBiomeGenForCoords(chunkX, chunkZ);
         if (b.getEnableSnow())
         {
-            if ((int) (random.nextFloat() * this.chance) == 1)
+            if(random.nextInt(FragileGlassBase.genChance) == 0)
             {
-                //Coords of middle of patch
-                int midX = (chunkX * 16) + random.nextInt(16);
-                int midZ = (chunkZ * 16) + random.nextInt(16);
-                //Usually the water level...
-                int y = 62;
-                int patchRad = (int)(((2*random.nextGaussian()) + FragileGlassBase.avePatchSize)/2);
-                int x;
-                int z;
-                for(int rad = patchRad; rad > 0; rad--)
+                this.genPatch(random, chunkX, chunkZ, world);
+                this.timeSinceLastPatch = 0;
+            }
+            else if(this.timeSinceLastPatch == this.timeToWaitBeforeBonusPatch)
+            {
+                this.genPatch(random, chunkX, chunkZ, world);
+                this.timeSinceLastPatch = 0;
+            }
+            else
+            {
+                this.timeSinceLastPatch++;
+            }
+        }
+    }
+
+    public void genPatch(Random random, int chunkX, int chunkZ, World world)
+    {
+        //Coords of middle of patch
+        int midX = (chunkX * 16) + random.nextInt(16);
+        int midZ = (chunkZ * 16) + random.nextInt(16);
+        //Usually the water level...
+        int y = 62;
+        int patchRad = (int)(((2*random.nextGaussian()) + FragileGlassBase.avePatchSize)/2);
+        int x;
+        int z;
+        for(int rad = patchRad; rad > 0; rad--)
+        {
+            for(double t = 0; t < 360; t += 10)
+            {
+                x = (int)(midX + (rad * Math.cos(t)));
+                z = (int)(midZ + (rad * Math.sin(t)));
+                if(world.getBlock(x, y, z) == Blocks.ice)
                 {
-                    for(double t = 0; t < 360; t += 10)
-                    {
-                        x = (int)(midX + (rad * Math.cos(t)));
-                        z = (int)(midZ + (rad * Math.sin(t)));
-                        if(world.getBlock(x, y, z) == Blocks.ice)
-                        {
-                            //Adds a little randomness to the outside of patches, to avoid perfect circles all the time
-                            if(rad > patchRad - 2) {
-                                if (random.nextBoolean()) {
-                                    world.setBlock(x, y, z, FragileGlassBase.thinIce);
-                                }
-                            }
-                            else
-                            {
-                                world.setBlock(x, y, z, FragileGlassBase.thinIce);
-                            }
+                    //Adds a little randomness to the outside of patches, to avoid perfect circles all the time
+                    if(rad > patchRad - 2) {
+                        if (random.nextBoolean()) {
+                            world.setBlock(x, y, z, FragileGlassBase.thinIce);
                         }
+                    }
+                    else
+                    {
+                        world.setBlock(x, y, z, FragileGlassBase.thinIce);
                     }
                 }
             }

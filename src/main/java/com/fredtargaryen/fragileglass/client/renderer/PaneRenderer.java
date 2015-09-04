@@ -42,11 +42,10 @@ public class PaneRenderer implements ISimpleBlockRenderingHandler
             f1 = f4;
             f2 = f5;
         }
-
         tessellator.setColorOpaque_F(f, f1, f2);
+
         IIcon iicon;
         IIcon iicon1;
-
         if (renderer.hasOverrideBlockTexture())
         {
             iicon = renderer.overrideBlockTexture;

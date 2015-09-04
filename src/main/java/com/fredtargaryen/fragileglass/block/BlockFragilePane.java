@@ -23,7 +23,7 @@ import static net.minecraftforge.common.util.ForgeDirection.*;
 public class BlockFragilePane extends AnyFragileGlassBlock
 {
 	@SideOnly(Side.CLIENT)
-	public IIcon theIcon;
+	protected IIcon theIcon;
     private int renderID;
 	
 	public BlockFragilePane(int renderID)
@@ -110,14 +110,6 @@ public class BlockFragilePane extends AnyFragileGlassBlock
             this.setBlockBounds(0.4375F, 0.0F, 0.0F, 0.5625F, 1.0F, 1.0F);
             super.addCollisionBoxesToList(p_149743_1_, p_149743_2_, p_149743_3_, p_149743_4_, p_149743_5_, p_149743_6_, p_149743_7_);
         }
-    }
-
-    /**
-     * Sets the block's bounds for rendering it as an item
-     */
-    public void setBlockBoundsForItemRender()
-    {
-        this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F);
     }
 
     /**
