@@ -1,9 +1,9 @@
 /**
  * TO DO
- * Sugar cauldron recipe not working
+ * Bubbles don't spawn
+ * Breaking the cauldron when finished doesn't give the glass
  * Sugar cauldron invisible in inventory
- * Sugar cauldron renders too dark.
- * Adding water not working great
+ * Sugar cauldron recipe not working
  * Ent falling not perfect
  */
 
@@ -96,6 +96,8 @@ public class FragileGlassBase
                 .setBlockName("ftthinice")
                 .setStepSound(Block.soundTypeGlass);
         sugarCauldron = new BlockSugarCauldron(sugarCauldronRenderID)
+                .setHardness(5.0F)
+                .setResistance(10.0F)
                 .setBlockName("ftsugarcauldron")
                 .setStepSound(Block.soundTypeMetal);
 

@@ -1,5 +1,6 @@
 package com.fredtargaryen.fragileglass.client.renderer;
 
+import com.fredtargaryen.fragileglass.FragileGlassBase;
 import com.fredtargaryen.fragileglass.block.BlockSugarCauldron;
 import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import net.minecraft.block.Block;
@@ -34,7 +35,7 @@ public class SugarCauldronRenderer implements ISimpleBlockRenderingHandler
     {
         Tessellator tessellator = Tessellator.instance;
         tessellator.setBrightness(block.getMixedBrightnessForBlock(renderer.blockAccess, x, y, z));
-        int i1 = block.colorMultiplier(renderer.blockAccess, x, y, z);
+        int i1 = 16777215;
         float f = (float)(i1 >> 16 & 255) / 255.0F;
         float f1 = (float)(i1 >> 8 & 255) / 255.0F;
         float f2 = (float)(i1 & 255) / 255.0F;
@@ -61,14 +62,8 @@ public class SugarCauldronRenderer implements ISimpleBlockRenderingHandler
         double y3 = y + 1;
         double u = iicon.getMinU();
         double u4 = iicon.getMaxU();
-        double usize = u4 - u;
-        double u2 = u + 0.0625 * usize;
-        double u3 = u + 0.9375 * usize;
         double v = iicon.getMinV();
         double v4 = iicon.getMaxV();
-        double vsize = v4 - v;
-        double v2 = v + 0.0625 * vsize;
-        double v3 = v + 0.9375 * vsize;
         //ftsugarcauldron_top
         IIcon iicon3 = ((BlockSugarCauldron) block).getTopIcon();
         double u5 = iicon3.getMinU();
@@ -136,16 +131,16 @@ public class SugarCauldronRenderer implements ISimpleBlockRenderingHandler
         if(m > 0)
         {
             IIcon iicon2;
-            if(m > 1 && m < 5)
+            if(m > 1 && m < 6)
             {
                 iicon2 = ((BlockSugarCauldron) block).getSugarWater();
             }
             else if(m == 1)
             {
-                iicon2 = renderer.getBlockIconFromSide(Blocks.water, 0);
+                iicon2 = renderer.getBlockIcon(Blocks.water);
             }
-            else if(m == 5) {
-                iicon2 = renderer.getBlockIcon(Blocks.glass);
+            else if(m == 6) {
+                iicon2 = renderer.getBlockIcon(FragileGlassBase.fragileGlass);
             }
             else
             {
@@ -156,10 +151,11 @@ public class SugarCauldronRenderer implements ISimpleBlockRenderingHandler
             double maxu = iicon2.getMaxU();
             double minv = iicon2.getMinV();
             double maxv = iicon2.getMaxV();
-            tessellator.addVertexWithUV(x3, y3, z2, maxu, maxv);
-            tessellator.addVertexWithUV(x3, y3, z3, maxu, minv);
-            tessellator.addVertexWithUV(x2, y3, z3, minu, minv);
-            tessellator.addVertexWithUV(x2, y3, z2, minu, maxv);
+            double y3point5 = y + 0.9375;
+            tessellator.addVertexWithUV(x2, y3point5, z2, maxu, maxv);
+            tessellator.addVertexWithUV(x2, y3point5, z3, maxu, minv);
+            tessellator.addVertexWithUV(x3, y3point5, z3, minu, minv);
+            tessellator.addVertexWithUV(x3, y3point5, z2, minu, maxv);
         }
         return true;
     }

@@ -10,6 +10,7 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -23,16 +24,17 @@ import java.util.Random;
  * 0 - Empty (nothing inside)
  * 1 - Has water (water inside)
  * 2 - Has sugar water (lighter coloured water)
- * 3 - Boiling 1 (Same, with about 3 bubbles)
- * 4 - Boiling 2 (Same, with about 6 bubbles)
- * 5 - Boiled (Glass on top)
+ * 3 - Boiling 1 (Same, very rare bubbles)
+ * 4 - Boiling 2 (Same, with about 3 bubbles)
+ * 5 - Boiling 3 (Same, with about 6 bubbles)
+ * 6 - Boiled (Glass on top)
  */
 public class BlockSugarCauldron extends Block
 {
     private int rID;
-    private Random r = new Random();
     private IIcon sugarWater;
     private IIcon topIcon;
+    private static final int thirdOfCookTime = 80;
 
     public BlockSugarCauldron(int rid)
     {
@@ -45,49 +47,72 @@ public class BlockSugarCauldron extends Block
     public int getRenderType(){return this.rID;}
 
     @Override
-    public boolean onBlockActivated(World w, int x, int y, int z, EntityPlayer player, int metaIThink, float dunno, float alsoDunno, float notAClue)
+    public boolean onBlockActivated(World w, int x, int y, int z, EntityPlayer player, int haventTheFoggiest, float dunno, float alsoDunno, float notAClue)
     {
-        switch(metaIThink)
+        if (w.isRemote)
         {
-            case 0:
-                if(player.inventory.getCurrentItem().getItem() == Items.water_bucket)
+            return true;
+        }
+        else
+        {
+            int i1 = w.getBlockMetadata(x, y, z);
+            ItemStack itemstack = player.inventory.getCurrentItem();
+            if(i1 == 0)
+            {
+                if (itemstack == null)
                 {
-                    player.inventory.setItemStack(new ItemStack(Items.bucket));
-                    w.setBlockMetadataWithNotify(x, y, z, 1, 3);
                     return true;
                 }
-                return false;
-            case 1:
-                Item i = player.inventory.getCurrentItem().getItem();
-                if(i == Items.bucket)
+                else
                 {
-                    player.inventory.setItemStack(new ItemStack(Items.water_bucket));
-                    w.setBlockMetadataWithNotify(x, y, z, 0, 3);
+                    if (itemstack.getItem() == Items.water_bucket)
+                    {
+                        if (!player.capabilities.isCreativeMode)
+                        {
+                            player.inventory.setInventorySlotContents(player.inventory.currentItem, new ItemStack(Items.bucket));
+                        }
+                        w.setBlockMetadataWithNotify(x, y, z, 1, 3);
+                    }
                     return true;
                 }
-                else if(i == Item.getItemFromBlock(FragileGlassBase.sugarBlock))
+            }
+            else if(i1 == 1)
+            {
+                if (itemstack == null)
                 {
-                    --player.inventory.getCurrentItem().stackSize;
-                    w.setBlockMetadataWithNotify(x, y, z, 2, 3);
                     return true;
                 }
-                return false;
-            case 5:
-                float f = r.nextFloat() * 0.8F + 0.1F;
-                float f1 = r.nextFloat() * 0.8F + 0.1F;
-                float f2 = r.nextFloat() * 0.8F + 0.1F;
-                EntityItem entityitem = new EntityItem(w, (double)((float)x + f), (double)((float)y + f1), (double)((float)z + f2), new ItemStack(FragileGlassBase.fragileGlass, 16, 0));
-                float f3 = 0.05F;
-                entityitem.motionX = (double)((float)r.nextGaussian() * f3);
-                entityitem.motionY = (double)((float)r.nextGaussian() * f3 + 0.2F);
-                entityitem.motionZ = (double)((float)r.nextGaussian() * f3);
+                else
+                {
+                    Item i = itemstack.getItem();
+                    if(i == Item.getItemFromBlock(FragileGlassBase.sugarBlock))
+                    {
+                        if (!player.capabilities.isCreativeMode)
+                        {
+                            ItemStack newStack = ItemStack.copyItemStack(itemstack);
+                            --newStack.stackSize;
+                            player.inventory.setInventorySlotContents(player.inventory.currentItem, newStack);
+                        }
+                        w.setBlockMetadataWithNotify(x, y, z, 2, 3);
+                    }
+                    return true;
+                }
+            }
+            else if(i1 == 6)
+            {
+                ItemStack glassStack = new ItemStack(FragileGlassBase.fragileGlass, 16);
+                if (!player.inventory.addItemStackToInventory(glassStack))
+                {
+                    w.spawnEntityInWorld(new EntityItem(w, (double)x + 0.5D, (double)y + 1.0D, (double)z + 0.5D, glassStack));
+                }
                 w.setBlockMetadataWithNotify(x, y, z, 0, 3);
                 return true;
-            default:
-                return false;
+            }
         }
+        return false;
     }
 
+    @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister i)
     {
@@ -115,13 +140,92 @@ public class BlockSugarCauldron extends Block
     public void onBlockAdded(World w, int x, int y, int z)
     {
         w.setBlockMetadataWithNotify(x, y, z, 0, 3);
+        w.scheduleBlockUpdate(x, y, z, this, 50);
+    }
+
+    @Override
+    public void updateTick(World w, int x, int y, int z, Random r)
+    {
+        int m = w.getBlockMetadata(x, y, z);
+        if(m < 2 || m == 6)
+        {
+            w.scheduleBlockUpdate(x, y, z, this, 50);
+        }
+        else if(m == 2)
+        {
+            if(w.getBlock(x, y - 1, z) == Blocks.lit_furnace)
+            {
+                w.setBlockMetadataWithNotify(x, y, z, 3, 3);
+                w.scheduleBlockUpdate(x, y, z, this, thirdOfCookTime);
+            }
+            else
+            {
+                w.scheduleBlockUpdate(x, y, z, this, 10);
+            }
+        }
+        else if(m > 6)
+        {
+            w.setBlockMetadataWithNotify(x, y, z, 0, 3);
+            w.scheduleBlockUpdate(x, y, z, this, 50);
+        }
+        else
+        {
+            if(w.getBlock(x, y - 1, z) == Blocks.lit_furnace)
+            {
+                ++m;
+                w.setBlockMetadataWithNotify(x, y, z, m, 3);
+                w.scheduleBlockUpdate(x, y, z, this, m == 6 ? 50 : thirdOfCookTime);
+            }
+            else
+            {
+                --m;
+                w.setBlockMetadataWithNotify(x, y, z, m, 3);
+                w.scheduleBlockUpdate(x, y, z, this, m == 2 ? 10 : thirdOfCookTime);
+            }
+        }
     }
 
     /**
      * Sets the block's bounds for rendering it as an item
      */
+    @Override
     public void setBlockBoundsForItemRender()
     {
         this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F);
+    }
+
+    /**
+     * Is this block (a) opaque and (b) a full 1m cube?  This determines whether or not to render the shared face of two
+     * adjacent blocks and also whether the player can attach torches, redstone wire, etc to this block.
+     */
+    @Override
+    public boolean isOpaqueCube()
+    {
+        return false;
+    }
+
+    /**
+     * A randomly called display update to be able to add particles or other items for display
+     */
+    @Override
+    @SideOnly(Side.CLIENT)
+    public void randomDisplayTick(World w, int x, int y, int z, Random r)
+    {
+        int m = w.getBlockMetadata(x, y, z);
+        if(m > 2 && m < 6)
+        {
+            w.spawnParticle("bubble", x + 0.125 + r.nextFloat() * 0.75, y + 1, z + 0.125 + r.nextFloat() * 0.75, 0.0D, 0.2D, 0.0D);
+        }
+    }
+
+    @Override
+    public void breakBlock(World w, int x, int y, int z, Block p_149749_5_, int p_149749_6_)
+    {
+        if(w.getBlockMetadata(x, y, z) == 6) {
+            if (!w.isRemote) {
+                w.spawnEntityInWorld(new EntityItem(w, (double) x + 0.5D, (double) y + 1.0D, (double) z + 0.5D, new ItemStack(FragileGlassBase.fragileGlass, 16)));
+            }
+        }
+        super.breakBlock(w, x, y, z, p_149749_5_, p_149749_6_);
     }
 }
