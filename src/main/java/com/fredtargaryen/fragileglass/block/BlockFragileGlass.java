@@ -43,6 +43,6 @@ public class BlockFragileGlass extends AnyFragileGlassBlock
     @Override
     public boolean shouldSideBeRendered(IBlockAccess w, int x, int y, int z, int side)
     {
-        return w.getBlock(x, y, z) instanceof BlockFragileGlass ? false : super.shouldSideBeRendered(w, x, y, z, side);
+        return !(w.getBlock(x, y, z) instanceof BlockFragileGlass) && super.shouldSideBeRendered(w, x, y, z, side);
     }
 }

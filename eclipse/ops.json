@@ -1,7 +1,17 @@
 [
   {
+    "uuid": "ad4a30d4-53bd-30c6-b482-5d77fb42b2d7",
+    "name": "Player593",
+    "level": 4
+  },
+  {
     "uuid": "d8673417-c4e9-3a05-9b69-9e1ec4bb9002",
     "name": "Player805",
+    "level": 4
+  },
+  {
+    "uuid": "af1e0784-3719-3271-9d4b-734c7d03d2c7",
+    "name": "Player878",
     "level": 4
   }
 ]

@@ -7,7 +7,6 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.*;
 import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.entity.projectile.EntityFireball;
-import net.minecraft.entity.projectile.EntitySmallFireball;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
 
@@ -29,9 +28,7 @@ public class TileEntityFragile extends TileEntity
             AxisAlignedBB checkAABB = normAABB.expand(DataReference.GLASS_DETECTION_RANGE, DataReference.GLASS_DETECTION_RANGE, DataReference.GLASS_DETECTION_RANGE);
             List<Entity> entities = this.worldObj.getEntitiesWithinAABBExcludingEntity(null, checkAABB);
             List<Entity> validEnts = new ArrayList<Entity>();
-            for (int x = 0; x < entities.size(); x++)
-            {
-                Entity nextEnt = entities.get(x);
+            for (Entity nextEnt : entities) {
                 if (nextEnt instanceof EntityLivingBase
                         || nextEnt instanceof EntityArrow
                         || nextEnt instanceof EntityFireball
@@ -39,8 +36,7 @@ public class TileEntityFragile extends TileEntity
                         || nextEnt instanceof EntityBoat
                         || nextEnt instanceof EntityFireworkRocket
                         || nextEnt instanceof EntityFallingBlock
-                        || nextEnt instanceof EntityTNTPrimed)
-                {
+                        || nextEnt instanceof EntityTNTPrimed) {
                     validEnts.add(0, nextEnt);
                 }
             }

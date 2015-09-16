@@ -13,7 +13,7 @@ import java.util.List;
 
 public class BlockStainedFragileGlass extends BlockFragileGlass
 {
-    private IIcon[] icons = new IIcon[16];
+    private final IIcon[] icons = new IIcon[16];
 
     @Override
     public int damageDropped (int metadata)

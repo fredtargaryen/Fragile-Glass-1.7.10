@@ -9,9 +9,9 @@ import net.minecraft.block.material.Material;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
-public abstract class AnyFragileGlassBlock extends Block implements ITileEntityProvider
+abstract class AnyFragileGlassBlock extends Block implements ITileEntityProvider
 {
-    public AnyFragileGlassBlock()
+    AnyFragileGlassBlock()
     {
         super(Material.glass);
     }

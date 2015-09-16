@@ -38,7 +38,6 @@ public class BlockThinIce extends BlockIce implements ITileEntityProvider
             if (p_149674_1_.provider.isHellWorld)
             {
                 p_149674_1_.setBlockToAir(p_149674_2_, p_149674_3_, p_149674_4_);
-                return;
             }
         }
     }

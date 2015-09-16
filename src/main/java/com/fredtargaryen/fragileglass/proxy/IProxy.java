@@ -2,7 +2,7 @@ package com.fredtargaryen.fragileglass.proxy;
 
 public interface IProxy
 {
-    public void registerRenderers();
+    void registerRenderers();
 
-    public void registerTickHandlers();
+    void registerTickHandlers();
 }

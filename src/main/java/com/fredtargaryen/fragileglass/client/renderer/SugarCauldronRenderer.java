@@ -13,7 +13,7 @@ import net.minecraft.world.IBlockAccess;
 
 public class SugarCauldronRenderer implements ISimpleBlockRenderingHandler
 {
-    private int renderID;
+    private final int renderID;
 
     public SugarCauldronRenderer(int rid){this.renderID = rid;}
 
@@ -24,15 +24,16 @@ public class SugarCauldronRenderer implements ISimpleBlockRenderingHandler
 
     @Override
     public boolean shouldRender3DInInventory(int modelId) {
-        return true;
+        return false;
     }
 
     @Override
-    public void renderInventoryBlock(Block block, int metadata, int modelId, RenderBlocks renderer){}
+    public void renderInventoryBlock(Block block, int metadata, int modelId, RenderBlocks renderer) {}
 
     @Override
-    public boolean renderWorldBlock(IBlockAccess world, int x, int y, int z, Block block, int modelId, RenderBlocks renderer)
+    public boolean renderWorldBlock(IBlockAccess world, int x, int y, int z, Block unCastedBlock, int modelId, RenderBlocks renderer)
     {
+        BlockSugarCauldron block = (BlockSugarCauldron)unCastedBlock;
         Tessellator tessellator = Tessellator.instance;
         tessellator.setBrightness(block.getMixedBrightnessForBlock(renderer.blockAccess, x, y, z));
         int i1 = 16777215;
@@ -51,7 +52,7 @@ public class SugarCauldronRenderer implements ISimpleBlockRenderingHandler
         tessellator.setColorOpaque_F(f, f1, f2);
 
         //ftsugarcauldron_main
-        IIcon iicon = renderer.getBlockIcon(block, world, x, y, z, 0);
+        IIcon iicon = block.getWallIcon();
         double x2 = x + 0.0625;
         double x3 = x + 0.9375;
         double x4 = x + 1;
@@ -65,7 +66,7 @@ public class SugarCauldronRenderer implements ISimpleBlockRenderingHandler
         double v = iicon.getMinV();
         double v4 = iicon.getMaxV();
         //ftsugarcauldron_top
-        IIcon iicon3 = ((BlockSugarCauldron) block).getTopIcon();
+        IIcon iicon3 = block.getTopIcon();
         double u5 = iicon3.getMinU();
         double u6 = iicon3.getMaxU();
         double v5 = iicon3.getMinV();
@@ -133,7 +134,7 @@ public class SugarCauldronRenderer implements ISimpleBlockRenderingHandler
             IIcon iicon2;
             if(m > 1 && m < 6)
             {
-                iicon2 = ((BlockSugarCauldron) block).getSugarWater();
+                iicon2 = block.getSugarWater();
             }
             else if(m == 1)
             {

@@ -42,7 +42,7 @@ public class PatchGen implements IWorldGenerator
         }
     }
 
-    public void genPatch(Random random, int chunkX, int chunkZ, World world)
+    private void genPatch(Random random, int chunkX, int chunkZ, World world)
     {
         //Coords of middle of patch
         int midX = (chunkX * 16) + random.nextInt(16);

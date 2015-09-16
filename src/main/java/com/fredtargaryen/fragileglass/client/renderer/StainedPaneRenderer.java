@@ -11,7 +11,7 @@ import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 
 public class StainedPaneRenderer implements ISimpleBlockRenderingHandler {
-    private int renderID;
+    private final int renderID;
     public StainedPaneRenderer(int rID)
     {
         this.renderID = rID;

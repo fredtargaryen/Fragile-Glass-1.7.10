@@ -23,8 +23,8 @@ import static net.minecraftforge.common.util.ForgeDirection.*;
 public class BlockFragilePane extends AnyFragileGlassBlock
 {
 	@SideOnly(Side.CLIENT)
-	protected IIcon theIcon;
-    private int renderID;
+    IIcon theIcon;
+    private final int renderID;
 	
 	public BlockFragilePane(int renderID)
 	{
@@ -58,7 +58,7 @@ public class BlockFragilePane extends AnyFragileGlassBlock
     @Override
     public boolean shouldSideBeRendered(IBlockAccess w, int x, int y, int z, int side)
     {
-        return w.getBlock(x, y, z) instanceof BlockFragilePane ? false : super.shouldSideBeRendered(w, x, y, z, side);
+        return !(w.getBlock(x, y, z) instanceof BlockFragilePane) && super.shouldSideBeRendered(w, x, y, z, side);
     }
 
     /**

@@ -24,8 +24,8 @@ public class BlockStainedFragilePane extends BlockFragilePane
         super(renderID);
     }
 
-    private IIcon[] icons = new IIcon[16];
-    private IIcon[] edgeIcons = new IIcon[16];
+    private final IIcon[] icons = new IIcon[16];
+    private final IIcon[] edgeIcons = new IIcon[16];
 
     @Override
     public int damageDropped (int metadata)

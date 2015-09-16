@@ -13,7 +13,7 @@ import static net.minecraftforge.common.util.ForgeDirection.*;
 
 public class PaneRenderer implements ISimpleBlockRenderingHandler
 {
-    private int renderID;
+    private final int renderID;
 
     public PaneRenderer(int rID)
     {

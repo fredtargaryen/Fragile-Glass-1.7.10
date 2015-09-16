@@ -3,17 +3,16 @@ package com.fredtargaryen.fragileglass.block;
 import com.fredtargaryen.fragileglass.DataReference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
+import net.minecraft.block.BlockFalling;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 
-public class SugarBlock extends Block
+public class SugarBlock extends BlockFalling
 {
 	public SugarBlock()
 	{
-		super(Material.sand);
-		setCreativeTab(CreativeTabs.tabMisc);
+		super();
+		this.setCreativeTab(CreativeTabs.tabMisc);
 	}
 	
 	@SideOnly(Side.CLIENT)
