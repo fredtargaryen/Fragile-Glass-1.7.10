@@ -112,9 +112,8 @@ public class BlockSugarCauldron extends Block
             }
             else if(i1 == 6)
             {
-                w.spawnEntityInWorld(new EntityItem(w, (double)x + 0.5D, (double)y + 1.5D, (double)z + 0.5D, new ItemStack(FragileGlassBase.fragileGlass, 16)));
-                w.spawnEntityInWorld(new EntityXPOrb(w));
-                w.spawnEntityInWorld(new EntityXPOrb(w));
+                w.spawnEntityInWorld(new EntityItem(w, (double)x + 0.5D, (double)y + 1.0D, (double)z + 0.5D, new ItemStack(FragileGlassBase.fragileGlass, 16)));
+                w.spawnEntityInWorld(new EntityXPOrb(w, (double)x + 0.5D, (double)y + 1.0D, (double)z + 0.5D, 4));
                 w.setBlockMetadataWithNotify(x, y, z, 0, 3);
                 return true;
             }
@@ -158,13 +157,14 @@ public class BlockSugarCauldron extends Block
     public void updateTick(World w, int x, int y, int z, Random r)
     {
         int m = w.getBlockMetadata(x, y, z);
+        Block blockBelow = w.getBlock(x, y - 1, z);
         if(m < 2 || m == 6)
         {
             w.scheduleBlockUpdate(x, y, z, this, 50);
         }
         else if(m == 2)
         {
-            if(w.getBlock(x, y - 1, z) == Blocks.lit_furnace)
+            if(blockBelow == Blocks.lit_furnace || blockBelow == Blocks.fire || blockBelow == Blocks.lava)
             {
                 w.setBlockMetadataWithNotify(x, y, z, 3, 3);
                 w.scheduleBlockUpdate(x, y, z, this, thirdOfCookTime);
@@ -181,7 +181,7 @@ public class BlockSugarCauldron extends Block
         }
         else
         {
-            if(w.getBlock(x, y - 1, z) == Blocks.lit_furnace)
+            if(blockBelow == Blocks.lit_furnace || blockBelow == Blocks.fire || blockBelow == Blocks.lava)
             {
                 ++m;
                 w.setBlockMetadataWithNotify(x, y, z, m, 3);
