@@ -1,48 +1,11 @@
-[16:09:06] [main/INFO]: Setting user: Player389
-[16:09:14] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:10:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
-[16:10:54] [Sound Library Loader/INFO]: Sound engine started
-[16:11:10] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[16:11:10] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[16:11:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
-[16:11:12] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:11:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:11:15] [Sound Library Loader/INFO]: Sound engine started
-[16:11:44] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:11:44] [Server thread/INFO]: Generating keypair
-[16:11:51] [Server thread/INFO]: Preparing start region for level 0
-[16:11:53] [Server thread/INFO]: Preparing spawn area: 0%
-[16:11:54] [Server thread/INFO]: Preparing spawn area: 17%
-[16:11:55] [Server thread/INFO]: Preparing spawn area: 29%
-[16:11:56] [Server thread/INFO]: Preparing spawn area: 61%
-[16:11:58] [Server thread/INFO]: Changing view distance to 8, from 10
-[16:12:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2034ms behind, skipping 40 tick(s)
-[16:12:13] [Server thread/INFO]: Stopping server
-[16:12:13] [Server thread/INFO]: Saving players
-[16:12:13] [Server thread/INFO]: Saving worlds
-[16:12:13] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:12:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:12:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:12:15] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:12:15] [Server thread/INFO]: Generating keypair
-[16:12:16] [Server thread/INFO]: Preparing start region for level 0
-[16:12:17] [Server thread/INFO]: Preparing spawn area: 86%
-[16:12:17] [Server thread/INFO]: Changing view distance to 8, from 10
-[16:12:19] [Server thread/INFO]: Player389[local:E:d8fa24b3] logged in with entity id 328 at (-375.5, 4.0, 617.5)
-[16:12:19] [Server thread/INFO]: Player389 joined the game
-[16:12:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2095ms behind, skipping 41 tick(s)
-[16:17:14] [Server thread/INFO]: Player389 fell out of the world
-[16:17:14] [Client thread/INFO]: [CHAT] Player389 fell out of the world
-[16:17:21] [Server thread/INFO]: Player389 has just earned the achievement [Taking Inventory]
-[16:17:22] [Client thread/INFO]: [CHAT] Player389 has just earned the achievement [Taking Inventory]
-[16:20:10] [Server thread/INFO]: Saving and pausing game...
-[16:20:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:20:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:20:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:20:11] [Server thread/INFO]: Stopping server
-[16:20:11] [Server thread/INFO]: Saving players
-[16:20:11] [Server thread/INFO]: Saving worlds
-[16:20:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:20:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:20:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:20:13] [Client thread/INFO]: Stopping!
+[16:44:44] [main/INFO]: Setting user: Player485
+[16:45:15] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:47:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
+[16:47:10] [Sound Library Loader/INFO]: Sound engine started
+[16:47:31] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[16:47:31] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[16:47:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
+[16:47:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:47:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:47:38] [Sound Library Loader/INFO]: Sound engine started
+[16:48:30] [Client thread/INFO]: Stopping!

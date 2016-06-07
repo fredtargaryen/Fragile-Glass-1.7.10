@@ -20,13 +20,17 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.oredict.OreDictionary;
+
+import java.util.ArrayList;
 
 @Mod(modid = DataReference.MODID, version = DataReference.VERSION, name=DataReference.MODNAME)
 public class FragileGlassBase {
@@ -35,6 +39,7 @@ public class FragileGlassBase {
     public static FragileGlassBase instance;
 
     private static final PatchGen patchGen = new PatchGen();
+    public static ArrayList<Item> iceBlocks;
 
     //Config vars
     private static boolean genThinIce;
@@ -130,5 +135,15 @@ public class FragileGlassBase {
 
         GameRegistry.registerTileEntity(TileEntityFragile.class, "glassTE");
         if (genThinIce) GameRegistry.registerWorldGenerator(patchGen, 1);
+    }
+
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent event)
+    {
+        iceBlocks = new ArrayList<Item>();
+        for(ItemStack is : OreDictionary.getOres("blockIce"))
+        {
+            iceBlocks.add(is.getItem());
+        }
     }
 }
