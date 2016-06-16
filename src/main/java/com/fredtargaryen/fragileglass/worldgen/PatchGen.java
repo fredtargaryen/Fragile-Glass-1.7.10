@@ -45,39 +45,55 @@ public class PatchGen implements IWorldGenerator
 
     private boolean genPatch(Random random, int chunkX, int chunkZ, World world)
     {
-        boolean madeThinIce = false;
-        int attempts = 0;
-        //Try 4 times to generate a patch
-        while(!madeThinIce && attempts < 4) {
-            //Coords of middle of patch (with midY)
-            int midX = (chunkX * 16) + random.nextInt(16);
-            int midZ = (chunkZ * 16) + random.nextInt(16);
-            int midY = world.getTopSolidOrLiquidBlock(midX, midZ);
+        //Coords of "top left" blocks in chunk
+        int chunkBlockX = chunkX * 16;
+        int chunkBlockZ = chunkZ * 16;
+        //The y coordinate where patch generation will be attempted
+        int patchY;
+        //Coords of "top left" blocks in an adjacent chunk
+        int nextChunkBlockX = chunkBlockX + 16;
+        int nextChunkBlockZ = chunkBlockZ + 16;
 
-            int patchRad = (int) (((2 * random.nextGaussian()) + FragileGlassBase.avePatchSize) / 2);
-            for (int rad = patchRad; rad > 0; rad--) {
-                for (double t = 0; t < 360; t += 10)
+        //Check 16 candidate blocks in the chunk to see if they are ice blocks
+        for(int candX = chunkBlockX; candX < nextChunkBlockX; candX += 8)
+        {
+            for(int candZ = chunkBlockZ; candZ < nextChunkBlockZ; candZ += 8)
+            {
+                patchY = world.getTopSolidOrLiquidBlock(candX, candZ) - 1;
+                Block candidate = world.getBlock(candX, patchY, candZ);
+                if(candidate instanceof BlockIce || FragileGlassBase.iceBlocks.contains(Item.getItemFromBlock(candidate)))
                 {
-                    int x = (int) (midX + (rad * Math.cos(t)));
-                    int z = (int) (midZ + (rad * Math.sin(t)));
-                    Block nextBlock = world.getBlock(x, midY, z);
-                    if(nextBlock instanceof BlockIce || FragileGlassBase.iceBlocks.contains(Item.getItemFromBlock(nextBlock))) {
-                        //Adds a little randomness to the outside of patches, to avoid perfect circles all the time
-                        if (rad > patchRad - 2) {
-                            if (random.nextBoolean()) {
-                                world.setBlock(x, midY, z, FragileGlassBase.thinIce);
+                    int patchRadius = (int) (((2 * random.nextGaussian()) + FragileGlassBase.avePatchSize) / 2);
+                    for (int rad = patchRadius; rad > 0; rad--)
+                    {
+                        for (double d = 0; d < 360; d += 10)
+                        {
+                            double r = Math.toRadians(d);
+                            int nextX = (int) (candX + (rad * Math.cos(r)));
+                            int nextZ = (int) (candZ + (rad * Math.sin(r)));
+                            Block nextBlock = world.getBlock(nextX, patchY, nextZ);
+                            if (nextBlock instanceof BlockIce || FragileGlassBase.iceBlocks.contains(Item.getItemFromBlock(nextBlock)))
+                            {
+                                //Adds a little randomness to the outside of patches, to avoid perfect circles all the time
+                                if (rad > patchRadius - 2)
+                                {
+                                    if (random.nextBoolean())
+                                    {
+                                        world.setBlock(nextX, patchY, nextZ, FragileGlassBase.thinIce);
+                                    }
+                                } else {
+                                    world.setBlock(nextX, patchY, nextZ, FragileGlassBase.thinIce);
+                                }
                             }
-                        } else {
-                            world.setBlock(x, midY, z, FragileGlassBase.thinIce);
                         }
-                        madeThinIce = true;
                     }
+                    world.setBlock(candX, patchY, candZ, FragileGlassBase.thinIce);
+                    //For testing
+                    //System.out.println("Generated patch at ("+candX+", "+patchY+", "+candZ+").");
+                    return true;
                 }
             }
-            if (!madeThinIce) {
-                ++attempts;
-            }
         }
-        return madeThinIce;
+        return false;
     }
 }

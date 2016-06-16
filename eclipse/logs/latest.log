@@ -1,11 +1,74 @@
-[16:44:44] [main/INFO]: Setting user: Player485
-[16:45:15] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:47:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
-[16:47:10] [Sound Library Loader/INFO]: Sound engine started
-[16:47:31] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[16:47:31] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[16:47:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
-[16:47:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:47:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:47:38] [Sound Library Loader/INFO]: Sound engine started
-[16:48:30] [Client thread/INFO]: Stopping!
+[19:32:48] [main/INFO]: Setting user: Player475
+[19:32:55] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:33:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
+[19:33:54] [Sound Library Loader/INFO]: Sound engine started
+[19:34:05] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[19:34:05] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[19:34:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fragile Glass and Thin Ice
+[19:34:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:34:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:34:13] [Sound Library Loader/INFO]: Sound engine started
+[19:34:29] [Client thread/INFO]: Deleting level Copy of New World
+[19:34:29] [Client thread/INFO]: Attempt 1...
+[19:34:59] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[19:34:59] [Server thread/INFO]: Generating keypair
+[19:35:00] [Server thread/INFO]: Converting map!
+[19:35:00] [Server thread/INFO]: Scanning folders...
+[19:35:00] [Server thread/INFO]: Total conversion count is 0
+[19:35:02] [Server thread/WARN]: Unable to find spawn biome
+[19:35:04] [Server thread/INFO]: Preparing start region for level 0
+[19:35:05] [Server thread/INFO]: Preparing spawn area: 1%
+[19:35:06] [Server thread/INFO]: Preparing spawn area: 4%
+[19:35:07] [Server thread/INFO]: Preparing spawn area: 7%
+[19:35:08] [Server thread/INFO]: Preparing spawn area: 10%
+[19:35:09] [Server thread/INFO]: Preparing spawn area: 13%
+[19:35:10] [Server thread/INFO]: Preparing spawn area: 16%
+[19:35:11] [Server thread/INFO]: Preparing spawn area: 19%
+[19:35:12] [Server thread/INFO]: Preparing spawn area: 22%
+[19:35:13] [Server thread/INFO]: Preparing spawn area: 26%
+[19:35:14] [Server thread/INFO]: Preparing spawn area: 30%
+[19:35:15] [Server thread/INFO]: Preparing spawn area: 33%
+[19:35:16] [Server thread/INFO]: Preparing spawn area: 37%
+[19:35:17] [Server thread/INFO]: Preparing spawn area: 42%
+[19:35:18] [Server thread/INFO]: Preparing spawn area: 47%
+[19:35:19] [Server thread/INFO]: Preparing spawn area: 52%
+[19:35:20] [Server thread/INFO]: Preparing spawn area: 56%
+[19:35:21] [Server thread/INFO]: Preparing spawn area: 58%
+[19:35:23] [Server thread/INFO]: Preparing spawn area: 62%
+[19:35:24] [Server thread/INFO]: Preparing spawn area: 66%
+[19:35:25] [Server thread/INFO]: Preparing spawn area: 69%
+[19:35:26] [Server thread/INFO]: Preparing spawn area: 74%
+[19:35:27] [Server thread/INFO]: Preparing spawn area: 78%
+[19:35:28] [Server thread/INFO]: Preparing spawn area: 81%
+[19:35:29] [Server thread/INFO]: Preparing spawn area: 85%
+[19:35:30] [Server thread/INFO]: Preparing spawn area: 90%
+[19:35:31] [Server thread/INFO]: Preparing spawn area: 94%
+[19:35:32] [Server thread/INFO]: Preparing spawn area: 98%
+[19:35:32] [Server thread/INFO]: Changing view distance to 7, from 10
+[19:35:36] [Server thread/INFO]: Player475[local:E:6825c3c5] logged in with entity id 252 at (196.5, 68.0, 83.5)
+[19:35:36] [Server thread/INFO]: Player475 joined the game
+[19:35:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3597ms behind, skipping 71 tick(s)
+[19:35:45] [Client thread/INFO]: Warning: Clientside chunk ticking took 480 ms
+[19:35:47] [Client thread/INFO]: Warning: Clientside chunk ticking took 349 ms
+[19:35:47] [Client thread/INFO]: Warning: Clientside chunk ticking took 101 ms
+[19:35:47] [Client thread/INFO]: Warning: Clientside chunk ticking took 168 ms
+[19:35:48] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
+[19:35:50] [Server thread/INFO]: Saving and pausing game...
+[19:35:50] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[19:35:51] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[19:36:31] [Server thread/INFO]: Saving and pausing game...
+[19:36:31] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[19:36:31] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[19:36:31] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[19:38:10] [Server thread/INFO]: Saving and pausing game...
+[19:38:10] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[19:38:10] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[19:38:10] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[19:38:11] [Server thread/INFO]: Stopping server
+[19:38:11] [Server thread/INFO]: Saving players
+[19:38:11] [Server thread/INFO]: Saving worlds
+[19:38:11] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[19:38:12] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[19:38:12] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[19:38:14] [Client thread/INFO]: Stopping!

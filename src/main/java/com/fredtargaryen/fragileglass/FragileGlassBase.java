@@ -1,8 +1,3 @@
-/**
- * TO DO
- * Ent falling not perfect
- */
-
 package com.fredtargaryen.fragileglass;
 
 import com.fredtargaryen.fragileglass.block.*;
